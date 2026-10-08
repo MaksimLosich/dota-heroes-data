@@ -1,0 +1,6195 @@
+[
+  {
+    "id": 1,
+    "name": "Anti-Mage",
+    "internalName": "npc_dota_hero_antimage",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "escape"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5003,
+        "name": "Mana Break",
+        "internalName": "antimage_mana_break"
+      },
+      {
+        "id": 5004,
+        "name": "Blink",
+        "internalName": "antimage_blink"
+      },
+      {
+        "id": 7314,
+        "name": "Counterspell",
+        "internalName": "antimage_counterspell"
+      },
+      {
+        "id": 1447,
+        "name": "Persecutor",
+        "internalName": "antimage_persectur"
+      },
+      {
+        "id": 5006,
+        "name": "Mana Void",
+        "internalName": "antimage_mana_void"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 2,
+    "name": "Axe",
+    "internalName": "npc_dota_hero_axe",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5007,
+        "name": "Berserker's Call",
+        "internalName": "axe_berserkers_call"
+      },
+      {
+        "id": 5008,
+        "name": "Battle Hunger",
+        "internalName": "axe_battle_hunger"
+      },
+      {
+        "id": 5009,
+        "name": "Counter Helix",
+        "internalName": "axe_counter_helix"
+      },
+      {
+        "id": 5010,
+        "name": "Culling Blade",
+        "internalName": "axe_culling_blade"
+      },
+      {
+        "id": 1166,
+        "name": "One Man Army",
+        "internalName": "axe_one_man_army"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 3,
+    "name": "Bane",
+    "internalName": "npc_dota_hero_bane",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "durable"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5012,
+        "name": "Enfeeble",
+        "internalName": "bane_enfeeble"
+      },
+      {
+        "id": 5011,
+        "name": "Brain Sap",
+        "internalName": "bane_brain_sap"
+      },
+      {
+        "id": 5014,
+        "name": "Nightmare",
+        "internalName": "bane_nightmare"
+      },
+      {
+        "id": 5013,
+        "name": "Fiend's Grip",
+        "internalName": "bane_fiends_grip"
+      },
+      {
+        "id": 1202,
+        "name": "Ichor of Nyctasha",
+        "internalName": "bane_ichor_of_nyctasha"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 4,
+    "name": "Bloodseeker",
+    "internalName": "npc_dota_hero_bloodseeker",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5015,
+        "name": "Bloodrage",
+        "internalName": "bloodseeker_bloodrage"
+      },
+      {
+        "id": 5016,
+        "name": "Blood Rite",
+        "internalName": "bloodseeker_blood_bath"
+      },
+      {
+        "id": 5017,
+        "name": "Thirst",
+        "internalName": "bloodseeker_thirst"
+      },
+      {
+        "id": 1203,
+        "name": "Sanguivore",
+        "internalName": "bloodseeker_sanguivore"
+      },
+      {
+        "id": 5018,
+        "name": "Rupture",
+        "internalName": "bloodseeker_rupture"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 5,
+    "name": "Crystal Maiden",
+    "internalName": "npc_dota_hero_crystal_maiden",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5126,
+        "name": "Crystal Nova",
+        "internalName": "crystal_maiden_crystal_nova"
+      },
+      {
+        "id": 5127,
+        "name": "Frostbite",
+        "internalName": "crystal_maiden_frostbite"
+      },
+      {
+        "id": 5128,
+        "name": "Arcane Aura",
+        "internalName": "crystal_maiden_brilliance_aura"
+      },
+      {
+        "id": 953,
+        "name": "Crystal Clone",
+        "internalName": "crystal_maiden_crystal_clone"
+      },
+      {
+        "id": 1735,
+        "name": "Glacial Guard",
+        "internalName": "crystal_maiden_glacial_guard"
+      },
+      {
+        "id": 5129,
+        "name": "Freezing Field",
+        "internalName": "crystal_maiden_freezing_field"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 6,
+    "name": "Drow Ranger",
+    "internalName": "npc_dota_hero_drow_ranger",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "disabler",
+      "pusher"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5019,
+        "name": "Frost Arrows",
+        "internalName": "drow_ranger_frost_arrows"
+      },
+      {
+        "id": 5632,
+        "name": "Gust",
+        "internalName": "drow_ranger_wave_of_silence"
+      },
+      {
+        "id": 343,
+        "name": "Multishot",
+        "internalName": "drow_ranger_multishot"
+      },
+      {
+        "id": 1121,
+        "name": "Glacier",
+        "internalName": "drow_ranger_glacier"
+      },
+      {
+        "id": 1205,
+        "name": "Precision Aura",
+        "internalName": "drow_ranger_trueshot"
+      },
+      {
+        "id": 5022,
+        "name": "Marksmanship",
+        "internalName": "drow_ranger_marksmanship"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 7,
+    "name": "Earthshaker",
+    "internalName": "npc_dota_hero_earthshaker",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5023,
+        "name": "Fissure",
+        "internalName": "earthshaker_fissure"
+      },
+      {
+        "id": 5024,
+        "name": "Enchant Totem",
+        "internalName": "earthshaker_enchant_totem"
+      },
+      {
+        "id": 5025,
+        "name": "Aftershock",
+        "internalName": "earthshaker_aftershock"
+      },
+      {
+        "id": 5026,
+        "name": "Echo Slam",
+        "internalName": "earthshaker_echo_slam"
+      },
+      {
+        "id": 1494,
+        "name": "Slugger",
+        "internalName": "earthshaker_slugger"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 8,
+    "name": "Juggernaut",
+    "internalName": "npc_dota_hero_juggernaut",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "escape",
+      "pusher"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5028,
+        "name": "Blade Fury",
+        "internalName": "juggernaut_blade_fury"
+      },
+      {
+        "id": 5029,
+        "name": "Healing Ward",
+        "internalName": "juggernaut_healing_ward"
+      },
+      {
+        "id": 5027,
+        "name": "Blade Dance",
+        "internalName": "juggernaut_blade_dance"
+      },
+      {
+        "id": 419,
+        "name": "Swiftslash",
+        "internalName": "juggernaut_swift_slash"
+      },
+      {
+        "id": 1210,
+        "name": "Bladeform",
+        "internalName": "juggernaut_bladeform"
+      },
+      {
+        "id": 5030,
+        "name": "Omnislash",
+        "internalName": "juggernaut_omni_slash"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 9,
+    "name": "Mirana",
+    "internalName": "npc_dota_hero_mirana",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "support",
+      "nuker",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5051,
+        "name": "Starstorm",
+        "internalName": "mirana_starfall"
+      },
+      {
+        "id": 5048,
+        "name": "Sacred Arrow",
+        "internalName": "mirana_arrow"
+      },
+      {
+        "id": 5050,
+        "name": "Leap",
+        "internalName": "mirana_leap"
+      },
+      {
+        "id": 1739,
+        "name": "Celestial Quiver",
+        "internalName": "mirana_celestial_quiver"
+      },
+      {
+        "id": 1213,
+        "name": "Moonlight Shadow",
+        "internalName": "mirana_invis"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 10,
+    "name": "Morphling",
+    "internalName": "npc_dota_hero_morphling",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "durable",
+      "escape"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5052,
+        "name": "Waveform",
+        "internalName": "morphling_waveform"
+      },
+      {
+        "id": 5053,
+        "name": "Adaptive Strike",
+        "internalName": "morphling_adaptive_strike_agi"
+      },
+      {
+        "id": 5055,
+        "name": "Attribute Shift (Agility Gain)",
+        "internalName": "morphling_morph_agi"
+      },
+      {
+        "id": 5056,
+        "name": "Attribute Shift (Strength Gain)",
+        "internalName": "morphling_morph_str"
+      },
+      {
+        "id": 5057,
+        "name": "Morph",
+        "internalName": "morphling_replicate"
+      },
+      {
+        "id": 1741,
+        "name": "Ebb and Flow",
+        "internalName": "morphling_ebb_and_flow"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 11,
+    "name": "Shadow Fiend",
+    "internalName": "npc_dota_hero_nevermore",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5059,
+        "name": "Shadowraze",
+        "internalName": "nevermore_shadowraze1"
+      },
+      {
+        "id": 1216,
+        "name": "Feast of Souls",
+        "internalName": "nevermore_frenzy"
+      },
+      {
+        "id": 5063,
+        "name": "Presence of the Dark Lord",
+        "internalName": "nevermore_dark_lord"
+      },
+      {
+        "id": 5064,
+        "name": "Requiem of Souls",
+        "internalName": "nevermore_requiem"
+      },
+      {
+        "id": 5062,
+        "name": "Necromastery",
+        "internalName": "nevermore_necromastery"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 12,
+    "name": "Phantom Lancer",
+    "internalName": "npc_dota_hero_phantom_lancer",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "escape",
+      "pusher"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5065,
+        "name": "Spirit Lance",
+        "internalName": "phantom_lancer_spirit_lance"
+      },
+      {
+        "id": 5066,
+        "name": "Doppelganger",
+        "internalName": "phantom_lancer_doppelwalk"
+      },
+      {
+        "id": 1221,
+        "name": "Phantom Rush",
+        "internalName": "phantom_lancer_phantom_edge"
+      },
+      {
+        "id": 1449,
+        "name": "Illusory Armaments",
+        "internalName": "phantom_lancer_illusory_armaments"
+      },
+      {
+        "id": 5067,
+        "name": "Juxtapose",
+        "internalName": "phantom_lancer_juxtapose"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 13,
+    "name": "Puck",
+    "internalName": "npc_dota_hero_puck",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "nuker",
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5069,
+        "name": "Illusory Orb",
+        "internalName": "puck_illusory_orb"
+      },
+      {
+        "id": 5071,
+        "name": "Waning Rift",
+        "internalName": "puck_waning_rift"
+      },
+      {
+        "id": 5072,
+        "name": "Phase Shift",
+        "internalName": "puck_phase_shift"
+      },
+      {
+        "id": 1222,
+        "name": "Puckish",
+        "internalName": "puck_puckish"
+      },
+      {
+        "id": 5073,
+        "name": "Dream Coil",
+        "internalName": "puck_dream_coil"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 14,
+    "name": "Pudge",
+    "internalName": "npc_dota_hero_pudge",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5075,
+        "name": "Meat Hook",
+        "internalName": "pudge_meat_hook"
+      },
+      {
+        "id": 5076,
+        "name": "Rot",
+        "internalName": "pudge_rot"
+      },
+      {
+        "id": 5074,
+        "name": "Meat Shield",
+        "internalName": "pudge_flesh_heap"
+      },
+      {
+        "id": 1223,
+        "name": "Flesh Heap",
+        "internalName": "pudge_innate_graft_flesh"
+      },
+      {
+        "id": 5077,
+        "name": "Dismember",
+        "internalName": "pudge_dismember"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 15,
+    "name": "Razor",
+    "internalName": "npc_dota_hero_razor",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "durable",
+      "pusher"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5082,
+        "name": "Plasma Field",
+        "internalName": "razor_plasma_field"
+      },
+      {
+        "id": 5083,
+        "name": "Static Link",
+        "internalName": "razor_static_link"
+      },
+      {
+        "id": 1224,
+        "name": "Storm Surge",
+        "internalName": "razor_storm_surge"
+      },
+      {
+        "id": 5084,
+        "name": "Unstable Current",
+        "internalName": "razor_unstable_current"
+      },
+      {
+        "id": 5085,
+        "name": "Eye of the Storm",
+        "internalName": "razor_eye_of_the_storm"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 16,
+    "name": "Sand King",
+    "internalName": "npc_dota_hero_sand_king",
+    "attribute": "universal",
+    "attackType": "melee",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5102,
+        "name": "Burrowstrike",
+        "internalName": "sandking_burrowstrike"
+      },
+      {
+        "id": 5103,
+        "name": "Sand Storm",
+        "internalName": "sandking_sand_storm"
+      },
+      {
+        "id": 1229,
+        "name": "Stinger",
+        "internalName": "sandking_scorpion_strike"
+      },
+      {
+        "id": 1226,
+        "name": "Caustic Finale",
+        "internalName": "sandking_caustic_finale"
+      },
+      {
+        "id": 5105,
+        "name": "Epicenter",
+        "internalName": "sandking_epicenter"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 17,
+    "name": "Storm Spirit",
+    "internalName": "npc_dota_hero_storm_spirit",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5098,
+        "name": "Static Remnant",
+        "internalName": "storm_spirit_static_remnant"
+      },
+      {
+        "id": 5099,
+        "name": "Electric Vortex",
+        "internalName": "storm_spirit_electric_vortex"
+      },
+      {
+        "id": 5100,
+        "name": "Overload",
+        "internalName": "storm_spirit_overload"
+      },
+      {
+        "id": 5101,
+        "name": "Ball Lightning",
+        "internalName": "storm_spirit_ball_lightning"
+      },
+      {
+        "id": 1231,
+        "name": "Galvanized",
+        "internalName": "storm_spirit_galvanized"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 18,
+    "name": "Sven",
+    "internalName": "npc_dota_hero_sven",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5094,
+        "name": "Storm Hammer",
+        "internalName": "sven_storm_bolt"
+      },
+      {
+        "id": 5095,
+        "name": "Great Cleave",
+        "internalName": "sven_great_cleave"
+      },
+      {
+        "id": 5096,
+        "name": "Warcry",
+        "internalName": "sven_warcry"
+      },
+      {
+        "id": 5097,
+        "name": "God's Strength",
+        "internalName": "sven_gods_strength"
+      },
+      {
+        "id": 1234,
+        "name": "Wrath of God",
+        "internalName": "sven_wrath_of_god"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 19,
+    "name": "Tiny",
+    "internalName": "npc_dota_hero_tiny",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "durable",
+      "pusher",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5106,
+        "name": "Avalanche",
+        "internalName": "tiny_avalanche"
+      },
+      {
+        "id": 5107,
+        "name": "Toss",
+        "internalName": "tiny_toss"
+      },
+      {
+        "id": 5108,
+        "name": "Tree Grab",
+        "internalName": "tiny_tree_grab"
+      },
+      {
+        "id": 7850,
+        "name": "Tree Volley",
+        "internalName": "tiny_tree_channel"
+      },
+      {
+        "id": 1236,
+        "name": "Insurmountable",
+        "internalName": "tiny_insurmountable"
+      },
+      {
+        "id": 5109,
+        "name": "Grow",
+        "internalName": "tiny_grow"
+      },
+      {
+        "id": 6937,
+        "name": "Tree Throw",
+        "internalName": "tiny_toss_tree"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 20,
+    "name": "Vengeful Spirit",
+    "internalName": "npc_dota_hero_vengefulspirit",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5122,
+        "name": "Magic Missile",
+        "internalName": "vengefulspirit_magic_missile"
+      },
+      {
+        "id": 5124,
+        "name": "Wave of Terror",
+        "internalName": "vengefulspirit_wave_of_terror"
+      },
+      {
+        "id": 5123,
+        "name": "Vengeance Aura",
+        "internalName": "vengefulspirit_command_aura"
+      },
+      {
+        "id": 1238,
+        "name": "Retribution",
+        "internalName": "vengefulspirit_retribution"
+      },
+      {
+        "id": 5125,
+        "name": "Nether Swap",
+        "internalName": "vengefulspirit_nether_swap"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 21,
+    "name": "Windranger",
+    "internalName": "npc_dota_hero_windrunner",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "support",
+      "nuker",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5130,
+        "name": "Shackleshot",
+        "internalName": "windrunner_shackleshot"
+      },
+      {
+        "id": 5131,
+        "name": "Powershot",
+        "internalName": "windrunner_powershot"
+      },
+      {
+        "id": 5132,
+        "name": "Windrun",
+        "internalName": "windrunner_windrun"
+      },
+      {
+        "id": 652,
+        "name": "Gale Force",
+        "internalName": "windrunner_gale_force"
+      },
+      {
+        "id": 5133,
+        "name": "Focus Fire",
+        "internalName": "windrunner_focusfire"
+      },
+      {
+        "id": 1742,
+        "name": "Tailwind",
+        "internalName": "windrunner_tailwind"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 22,
+    "name": "Zeus",
+    "internalName": "npc_dota_hero_zuus",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5110,
+        "name": "Arc Lightning",
+        "internalName": "zuus_arc_lightning"
+      },
+      {
+        "id": 5111,
+        "name": "Lightning Bolt",
+        "internalName": "zuus_lightning_bolt"
+      },
+      {
+        "id": 641,
+        "name": "Heavenly Jump",
+        "internalName": "zuus_heavenly_jump"
+      },
+      {
+        "id": 6325,
+        "name": "Nimbus",
+        "internalName": "zuus_cloud"
+      },
+      {
+        "id": 1110,
+        "name": "Lightning Hands",
+        "internalName": "zuus_lightning_hands"
+      },
+      {
+        "id": 5113,
+        "name": "Thundergod's Wrath",
+        "internalName": "zuus_thundergods_wrath"
+      },
+      {
+        "id": 5112,
+        "name": "Static Field",
+        "internalName": "zuus_static_field"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 23,
+    "name": "Kunkka",
+    "internalName": "npc_dota_hero_kunkka",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "support",
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5031,
+        "name": "Torrent",
+        "internalName": "kunkka_torrent"
+      },
+      {
+        "id": 5032,
+        "name": "Tidebringer",
+        "internalName": "kunkka_tidebringer"
+      },
+      {
+        "id": 5033,
+        "name": "X Marks the Spot",
+        "internalName": "kunkka_x_marks_the_spot"
+      },
+      {
+        "id": 1452,
+        "name": "Admiral's Rum",
+        "internalName": "kunkka_admirals_rum"
+      },
+      {
+        "id": 605,
+        "name": "Tidal Wave",
+        "internalName": "kunkka_tidal_wave"
+      },
+      {
+        "id": 5035,
+        "name": "Ghostship",
+        "internalName": "kunkka_ghostship"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 25,
+    "name": "Lina",
+    "internalName": "npc_dota_hero_lina",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "support",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5040,
+        "name": "Dragon Slave",
+        "internalName": "lina_dragon_slave"
+      },
+      {
+        "id": 5041,
+        "name": "Light Strike Array",
+        "internalName": "lina_light_strike_array"
+      },
+      {
+        "id": 5042,
+        "name": "Fiery Soul",
+        "internalName": "lina_fiery_soul"
+      },
+      {
+        "id": 944,
+        "name": "Flame Cloak",
+        "internalName": "lina_flame_cloak"
+      },
+      {
+        "id": 1244,
+        "name": "Slow Burn",
+        "internalName": "lina_slow_burn"
+      },
+      {
+        "id": 5043,
+        "name": "Laguna Blade",
+        "internalName": "lina_laguna_blade"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 26,
+    "name": "Lion",
+    "internalName": "npc_dota_hero_lion",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5044,
+        "name": "Earth Spike",
+        "internalName": "lion_impale"
+      },
+      {
+        "id": 5045,
+        "name": "Hex",
+        "internalName": "lion_voodoo"
+      },
+      {
+        "id": 5046,
+        "name": "Mana Drain",
+        "internalName": "lion_mana_drain"
+      },
+      {
+        "id": 1249,
+        "name": "To Hell and Back",
+        "internalName": "lion_to_hell_and_back"
+      },
+      {
+        "id": 5047,
+        "name": "Finger of Death",
+        "internalName": "lion_finger_of_death"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 27,
+    "name": "Shadow Shaman",
+    "internalName": "npc_dota_hero_shadow_shaman",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "pusher",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5078,
+        "name": "Ether Shock",
+        "internalName": "shadow_shaman_ether_shock"
+      },
+      {
+        "id": 5079,
+        "name": "Hex",
+        "internalName": "shadow_shaman_voodoo"
+      },
+      {
+        "id": 5080,
+        "name": "Shackles",
+        "internalName": "shadow_shaman_shackles"
+      },
+      {
+        "id": 1250,
+        "name": "Fowl Play",
+        "internalName": "shadow_shaman_fowl_play"
+      },
+      {
+        "id": 1743,
+        "name": "Urnaconda",
+        "internalName": "shadow_shaman_urnaconda"
+      },
+      {
+        "id": 5081,
+        "name": "Mass Serpent Ward",
+        "internalName": "shadow_shaman_mass_serpent_ward"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 28,
+    "name": "Slardar",
+    "internalName": "npc_dota_hero_slardar",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "disabler",
+      "durable",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5114,
+        "name": "Guardian Sprint",
+        "internalName": "slardar_sprint"
+      },
+      {
+        "id": 5115,
+        "name": "Slithereen Crush",
+        "internalName": "slardar_slithereen_crush"
+      },
+      {
+        "id": 5116,
+        "name": "Bash of the Deep",
+        "internalName": "slardar_bash"
+      },
+      {
+        "id": 1253,
+        "name": "Seaborn Sentinel",
+        "internalName": "slardar_seaborn_sentinel"
+      },
+      {
+        "id": 5117,
+        "name": "Corrosive Haze",
+        "internalName": "slardar_amplify_damage"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 29,
+    "name": "Tidehunter",
+    "internalName": "npc_dota_hero_tidehunter",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5118,
+        "name": "Gush",
+        "internalName": "tidehunter_gush"
+      },
+      {
+        "id": 5119,
+        "name": "Kraken Shell",
+        "internalName": "tidehunter_kraken_shell"
+      },
+      {
+        "id": 5120,
+        "name": "Anchor Smash",
+        "internalName": "tidehunter_anchor_smash"
+      },
+      {
+        "id": 5407,
+        "name": "Dead in the Water",
+        "internalName": "tidehunter_dead_in_the_water"
+      },
+      {
+        "id": 5121,
+        "name": "Ravage",
+        "internalName": "tidehunter_ravage"
+      },
+      {
+        "id": 1746,
+        "name": "Leviathan's Catch",
+        "internalName": "tidehunter_leviathans_catch"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 30,
+    "name": "Witch Doctor",
+    "internalName": "npc_dota_hero_witch_doctor",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5138,
+        "name": "Paralyzing Cask",
+        "internalName": "witch_doctor_paralyzing_cask"
+      },
+      {
+        "id": 5139,
+        "name": "Voodoo Restoration",
+        "internalName": "witch_doctor_voodoo_restoration"
+      },
+      {
+        "id": 5140,
+        "name": "Maledict",
+        "internalName": "witch_doctor_maledict"
+      },
+      {
+        "id": 632,
+        "name": "Voodoo Switcheroo",
+        "internalName": "witch_doctor_voodoo_switcheroo"
+      },
+      {
+        "id": 1257,
+        "name": "Gris-Gris",
+        "internalName": "witch_doctor_gris_gris"
+      },
+      {
+        "id": 5141,
+        "name": "Death Ward",
+        "internalName": "witch_doctor_death_ward"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 31,
+    "name": "Lich",
+    "internalName": "npc_dota_hero_lich",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5134,
+        "name": "Frost Blast",
+        "internalName": "lich_frost_nova"
+      },
+      {
+        "id": 5136,
+        "name": "Frost Shield",
+        "internalName": "lich_frost_shield"
+      },
+      {
+        "id": 7325,
+        "name": "Sinister Gaze",
+        "internalName": "lich_sinister_gaze"
+      },
+      {
+        "id": 8028,
+        "name": "Ice Spire",
+        "internalName": "lich_ice_spire"
+      },
+      {
+        "id": 1245,
+        "name": "Sacrifice",
+        "internalName": "lich_death_charge"
+      },
+      {
+        "id": 5137,
+        "name": "Chain Frost",
+        "internalName": "lich_chain_frost"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 32,
+    "name": "Riki",
+    "internalName": "npc_dota_hero_riki",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5142,
+        "name": "Smoke Screen",
+        "internalName": "riki_smoke_screen"
+      },
+      {
+        "id": 5143,
+        "name": "Blink Strike",
+        "internalName": "riki_blink_strike"
+      },
+      {
+        "id": 5145,
+        "name": "Tricks of the Trade",
+        "internalName": "riki_tricks_of_the_trade"
+      },
+      {
+        "id": 1258,
+        "name": "Backstab",
+        "internalName": "riki_innate_backstab"
+      },
+      {
+        "id": 5144,
+        "name": "Cloak and Dagger",
+        "internalName": "riki_backstab"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 33,
+    "name": "Enigma",
+    "internalName": "npc_dota_hero_enigma",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "disabler",
+      "pusher",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5146,
+        "name": "Malefice",
+        "internalName": "enigma_malefice"
+      },
+      {
+        "id": 5147,
+        "name": "Demonic Summoning",
+        "internalName": "enigma_demonic_conversion"
+      },
+      {
+        "id": 5148,
+        "name": "Midnight Pulse",
+        "internalName": "enigma_midnight_pulse"
+      },
+      {
+        "id": 1261,
+        "name": "Event Horizon",
+        "internalName": "enigma_event_horizon"
+      },
+      {
+        "id": 5149,
+        "name": "Black Hole",
+        "internalName": "enigma_black_hole"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 34,
+    "name": "Tinker",
+    "internalName": "npc_dota_hero_tinker",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "pusher"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5150,
+        "name": "Laser",
+        "internalName": "tinker_laser"
+      },
+      {
+        "id": 5152,
+        "name": "March of the Machines",
+        "internalName": "tinker_march_of_the_machines"
+      },
+      {
+        "id": 1744,
+        "name": "Deploy Turrets",
+        "internalName": "tinker_deploy_turrets"
+      },
+      {
+        "id": 909,
+        "name": "Warp Flare",
+        "internalName": "tinker_warp_grenade"
+      },
+      {
+        "id": 5153,
+        "name": "Rearm",
+        "internalName": "tinker_rearm"
+      },
+      {
+        "id": 1262,
+        "name": "Eureka!",
+        "internalName": "tinker_eureka"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 35,
+    "name": "Sniper",
+    "internalName": "npc_dota_hero_sniper",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5154,
+        "name": "Shrapnel",
+        "internalName": "sniper_shrapnel"
+      },
+      {
+        "id": 5155,
+        "name": "Headshot",
+        "internalName": "sniper_headshot"
+      },
+      {
+        "id": 5156,
+        "name": "Take Aim",
+        "internalName": "sniper_take_aim"
+      },
+      {
+        "id": 694,
+        "name": "Concussive Grenade",
+        "internalName": "sniper_concussive_grenade"
+      },
+      {
+        "id": 1268,
+        "name": "Keen Scope",
+        "internalName": "sniper_keen_scope"
+      },
+      {
+        "id": 5157,
+        "name": "Assassinate",
+        "internalName": "sniper_assassinate"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 36,
+    "name": "Necrophos",
+    "internalName": "npc_dota_hero_necrolyte",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "durable"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5158,
+        "name": "Death Pulse",
+        "internalName": "necrolyte_death_pulse"
+      },
+      {
+        "id": 1270,
+        "name": "Ghost Shroud",
+        "internalName": "necrolyte_ghost_shroud"
+      },
+      {
+        "id": 5159,
+        "name": "Heartstopper Aura",
+        "internalName": "necrolyte_heartstopper_aura"
+      },
+      {
+        "id": 661,
+        "name": "Death Seeker",
+        "internalName": "necrolyte_death_seeker"
+      },
+      {
+        "id": 5160,
+        "name": "Sadist",
+        "internalName": "necrolyte_sadist"
+      },
+      {
+        "id": 5161,
+        "name": "Reaper's Scythe",
+        "internalName": "necrolyte_reapers_scythe"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 37,
+    "name": "Warlock",
+    "internalName": "npc_dota_hero_warlock",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "disabler",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5162,
+        "name": "Fatal Bonds",
+        "internalName": "warlock_fatal_bonds"
+      },
+      {
+        "id": 5163,
+        "name": "Shadow Word",
+        "internalName": "warlock_shadow_word"
+      },
+      {
+        "id": 5164,
+        "name": "Upheaval",
+        "internalName": "warlock_upheaval"
+      },
+      {
+        "id": 1274,
+        "name": "Eldritch Summoning",
+        "internalName": "warlock_eldritch_summoning"
+      },
+      {
+        "id": 5165,
+        "name": "Chaotic Offering",
+        "internalName": "warlock_rain_of_chaos"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 38,
+    "name": "Beastmaster",
+    "internalName": "npc_dota_hero_beastmaster",
+    "attribute": "universal",
+    "attackType": "melee",
+    "roles": [
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5168,
+        "name": "Wild Axes",
+        "internalName": "beastmaster_wild_axes"
+      },
+      {
+        "id": 7230,
+        "name": "Summon Razorback",
+        "internalName": "beastmaster_summon_razorback"
+      },
+      {
+        "id": 7231,
+        "name": "Summon Raptors",
+        "internalName": "beastmaster_summon_raptor"
+      },
+      {
+        "id": 5172,
+        "name": "Inner Beast",
+        "internalName": "beastmaster_inner_beast"
+      },
+      {
+        "id": 1005,
+        "name": "Drums of Slom",
+        "internalName": "beastmaster_drums_of_slom"
+      },
+      {
+        "id": 5177,
+        "name": "Primal Roar",
+        "internalName": "beastmaster_primal_roar"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 39,
+    "name": "Queen of Pain",
+    "internalName": "npc_dota_hero_queenofpain",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5173,
+        "name": "Shadow Strike",
+        "internalName": "queenofpain_shadow_strike"
+      },
+      {
+        "id": 5174,
+        "name": "Blink",
+        "internalName": "queenofpain_blink"
+      },
+      {
+        "id": 5175,
+        "name": "Scream Of Pain",
+        "internalName": "queenofpain_scream_of_pain"
+      },
+      {
+        "id": 1277,
+        "name": "Succubus",
+        "internalName": "queenofpain_succubus"
+      },
+      {
+        "id": 5176,
+        "name": "Sonic Wave",
+        "internalName": "queenofpain_sonic_wave"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 40,
+    "name": "Venomancer",
+    "internalName": "npc_dota_hero_venomancer",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "pusher",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5178,
+        "name": "Venomous Gale",
+        "internalName": "venomancer_venomous_gale"
+      },
+      {
+        "id": 1749,
+        "name": "Snakebite",
+        "internalName": "venomancer_snakebite"
+      },
+      {
+        "id": 5180,
+        "name": "Plague Ward",
+        "internalName": "venomancer_plague_ward"
+      },
+      {
+        "id": 5179,
+        "name": "Poison Sting",
+        "internalName": "venomancer_poison_sting"
+      },
+      {
+        "id": 1105,
+        "name": "Noxious Plague",
+        "internalName": "venomancer_noxious_plague"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 41,
+    "name": "Faceless Void",
+    "internalName": "npc_dota_hero_faceless_void",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "disabler",
+      "durable",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5182,
+        "name": "Time Walk",
+        "internalName": "faceless_void_time_walk"
+      },
+      {
+        "id": 5691,
+        "name": "Time Dilation",
+        "internalName": "faceless_void_time_dilation"
+      },
+      {
+        "id": 5184,
+        "name": "Time Lock",
+        "internalName": "faceless_void_time_lock"
+      },
+      {
+        "id": 8030,
+        "name": "Reverse Time Walk",
+        "internalName": "faceless_void_time_walk_reverse"
+      },
+      {
+        "id": 1280,
+        "name": "Distortion Field",
+        "internalName": "faceless_void_distortion_field"
+      },
+      {
+        "id": 5185,
+        "name": "Chronosphere",
+        "internalName": "faceless_void_chronosphere"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 42,
+    "name": "Wraith King",
+    "internalName": "npc_dota_hero_skeleton_king",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "support",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5086,
+        "name": "Wraithfire Blast",
+        "internalName": "skeleton_king_hellfire_blast"
+      },
+      {
+        "id": 5087,
+        "name": "Bone Guard",
+        "internalName": "skeleton_king_bone_guard"
+      },
+      {
+        "id": 5088,
+        "name": "Mortal Strike",
+        "internalName": "skeleton_king_mortal_strike"
+      },
+      {
+        "id": 1283,
+        "name": "Vampiric Spirit",
+        "internalName": "skeleton_king_vampiric_spirit"
+      },
+      {
+        "id": 5089,
+        "name": "Reincarnation",
+        "internalName": "skeleton_king_reincarnation"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 43,
+    "name": "Death Prophet",
+    "internalName": "npc_dota_hero_death_prophet",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "pusher"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5090,
+        "name": "Crypt Swarm",
+        "internalName": "death_prophet_carrion_swarm"
+      },
+      {
+        "id": 5091,
+        "name": "Silence",
+        "internalName": "death_prophet_silence"
+      },
+      {
+        "id": 5685,
+        "name": "Spirit Siphon",
+        "internalName": "death_prophet_spirit_siphon"
+      },
+      {
+        "id": 5092,
+        "name": "Witchcraft",
+        "internalName": "death_prophet_witchcraft"
+      },
+      {
+        "id": 5093,
+        "name": "Exorcism",
+        "internalName": "death_prophet_exorcism"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 44,
+    "name": "Phantom Assassin",
+    "internalName": "npc_dota_hero_phantom_assassin",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "escape"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5190,
+        "name": "Stifling Dagger",
+        "internalName": "phantom_assassin_stifling_dagger"
+      },
+      {
+        "id": 5191,
+        "name": "Phantom Strike",
+        "internalName": "phantom_assassin_phantom_strike"
+      },
+      {
+        "id": 5192,
+        "name": "Blur",
+        "internalName": "phantom_assassin_blur"
+      },
+      {
+        "id": 662,
+        "name": "Fan of Knives",
+        "internalName": "phantom_assassin_fan_of_knives"
+      },
+      {
+        "id": 1287,
+        "name": "Immaterial",
+        "internalName": "phantom_assassin_immaterial"
+      },
+      {
+        "id": 5193,
+        "name": "Coup de Grace",
+        "internalName": "phantom_assassin_coup_de_grace"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 45,
+    "name": "Pugna",
+    "internalName": "npc_dota_hero_pugna",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "nuker",
+      "pusher"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5186,
+        "name": "Nether Blast",
+        "internalName": "pugna_nether_blast"
+      },
+      {
+        "id": 5187,
+        "name": "Decrepify",
+        "internalName": "pugna_decrepify"
+      },
+      {
+        "id": 5188,
+        "name": "Nether Ward",
+        "internalName": "pugna_nether_ward"
+      },
+      {
+        "id": 1288,
+        "name": "Oblivion Savant",
+        "internalName": "pugna_oblivion_savant"
+      },
+      {
+        "id": 5189,
+        "name": "Life Drain",
+        "internalName": "pugna_life_drain"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 46,
+    "name": "Templar Assassin",
+    "internalName": "npc_dota_hero_templar_assassin",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5194,
+        "name": "Refraction",
+        "internalName": "templar_assassin_refraction"
+      },
+      {
+        "id": 5195,
+        "name": "Meld",
+        "internalName": "templar_assassin_meld"
+      },
+      {
+        "id": 5196,
+        "name": "Psi Blades",
+        "internalName": "templar_assassin_psi_blades"
+      },
+      {
+        "id": 7853,
+        "name": "Psionic Projection",
+        "internalName": "templar_assassin_trap_teleport"
+      },
+      {
+        "id": 5197,
+        "name": "Psionic Trap",
+        "internalName": "templar_assassin_psionic_trap"
+      },
+      {
+        "id": 1750,
+        "name": "Inner Peace",
+        "internalName": "templar_assassin_inner_peace"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 47,
+    "name": "Viper",
+    "internalName": "npc_dota_hero_viper",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5218,
+        "name": "Poison Attack",
+        "internalName": "viper_poison_attack"
+      },
+      {
+        "id": 5219,
+        "name": "Nethertoxin",
+        "internalName": "viper_nethertoxin"
+      },
+      {
+        "id": 5220,
+        "name": "Corrosive Skin",
+        "internalName": "viper_corrosive_skin"
+      },
+      {
+        "id": 983,
+        "name": "Nosedive",
+        "internalName": "viper_nose_dive"
+      },
+      {
+        "id": 1461,
+        "name": "Predator",
+        "internalName": "viper_predator"
+      },
+      {
+        "id": 5221,
+        "name": "Viper Strike",
+        "internalName": "viper_viper_strike"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 48,
+    "name": "Luna",
+    "internalName": "npc_dota_hero_luna",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "pusher"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5222,
+        "name": "Lucent Beam",
+        "internalName": "luna_lucent_beam"
+      },
+      {
+        "id": 1462,
+        "name": "Lunar Orbit",
+        "internalName": "luna_lunar_orbit"
+      },
+      {
+        "id": 5223,
+        "name": "Moon Glaives",
+        "internalName": "luna_moon_glaive"
+      },
+      {
+        "id": 5224,
+        "name": "Lunar Blessing",
+        "internalName": "luna_lunar_blessing"
+      },
+      {
+        "id": 5225,
+        "name": "Eclipse",
+        "internalName": "luna_eclipse"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 49,
+    "name": "Dragon Knight",
+    "internalName": "npc_dota_hero_dragon_knight",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "durable",
+      "pusher",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5226,
+        "name": "Breathe Fire",
+        "internalName": "dragon_knight_breathe_fire"
+      },
+      {
+        "id": 5227,
+        "name": "Dragon Tail",
+        "internalName": "dragon_knight_dragon_tail"
+      },
+      {
+        "id": 1752,
+        "name": "Wyrm's Wrath",
+        "internalName": "dragon_knight_wyrms_wrath"
+      },
+      {
+        "id": 660,
+        "name": "Fireball",
+        "internalName": "dragon_knight_fireball"
+      },
+      {
+        "id": 5228,
+        "name": "Dragon Blood",
+        "internalName": "dragon_knight_dragon_blood"
+      },
+      {
+        "id": 5229,
+        "name": "Elder Dragon Form",
+        "internalName": "dragon_knight_elder_dragon_form"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 50,
+    "name": "Dazzle",
+    "internalName": "npc_dota_hero_dazzle",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5233,
+        "name": "Poison Touch",
+        "internalName": "dazzle_poison_touch"
+      },
+      {
+        "id": 5234,
+        "name": "Shallow Grave",
+        "internalName": "dazzle_shallow_grave"
+      },
+      {
+        "id": 5235,
+        "name": "Shadow Wave",
+        "internalName": "dazzle_shadow_wave"
+      },
+      {
+        "id": 1293,
+        "name": "Weave",
+        "internalName": "dazzle_innate_weave"
+      },
+      {
+        "id": 1550,
+        "name": "Nothl Projection",
+        "internalName": "dazzle_nothl_projection"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 51,
+    "name": "Clockwerk",
+    "internalName": "npc_dota_hero_rattletrap",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5237,
+        "name": "Battery Assault",
+        "internalName": "rattletrap_battery_assault"
+      },
+      {
+        "id": 5238,
+        "name": "Power Cogs",
+        "internalName": "rattletrap_power_cogs"
+      },
+      {
+        "id": 5239,
+        "name": "Rocket Flare",
+        "internalName": "rattletrap_rocket_flare"
+      },
+      {
+        "id": 321,
+        "name": "Overclocking",
+        "internalName": "rattletrap_overclocking"
+      },
+      {
+        "id": 630,
+        "name": "Jetpack",
+        "internalName": "rattletrap_jetpack"
+      },
+      {
+        "id": 5240,
+        "name": "Hookshot",
+        "internalName": "rattletrap_hookshot"
+      },
+      {
+        "id": 1295,
+        "name": "Armor Power",
+        "internalName": "rattletrap_armor_power"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 52,
+    "name": "Leshrac",
+    "internalName": "npc_dota_hero_leshrac",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "support",
+      "nuker",
+      "disabler",
+      "pusher"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5241,
+        "name": "Split Earth",
+        "internalName": "leshrac_split_earth"
+      },
+      {
+        "id": 5242,
+        "name": "Diabolic Edict",
+        "internalName": "leshrac_diabolic_edict"
+      },
+      {
+        "id": 5243,
+        "name": "Lightning Storm",
+        "internalName": "leshrac_lightning_storm"
+      },
+      {
+        "id": 539,
+        "name": "Nihilism",
+        "internalName": "leshrac_greater_lightning_storm"
+      },
+      {
+        "id": 1297,
+        "name": "Defilement",
+        "internalName": "leshrac_defilement"
+      },
+      {
+        "id": 5244,
+        "name": "Pulse Nova",
+        "internalName": "leshrac_pulse_nova"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 53,
+    "name": "Nature's Prophet",
+    "internalName": "npc_dota_hero_furion",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "escape",
+      "pusher"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5245,
+        "name": "Sprout",
+        "internalName": "furion_sprout"
+      },
+      {
+        "id": 5246,
+        "name": "Teleportation",
+        "internalName": "furion_teleportation"
+      },
+      {
+        "id": 5247,
+        "name": "Nature's Call",
+        "internalName": "furion_force_of_nature"
+      },
+      {
+        "id": 997,
+        "name": "Curse of the Oldgrowth",
+        "internalName": "furion_curse_of_the_forest"
+      },
+      {
+        "id": 1298,
+        "name": "Spirit of the Forest",
+        "internalName": "furion_spirit_of_the_forest"
+      },
+      {
+        "id": 5248,
+        "name": "Wrath of Nature",
+        "internalName": "furion_wrath_of_nature"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 54,
+    "name": "Lifestealer",
+    "internalName": "npc_dota_hero_life_stealer",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "disabler",
+      "durable",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5249,
+        "name": "Rage",
+        "internalName": "life_stealer_rage"
+      },
+      {
+        "id": 5251,
+        "name": "Open Wounds",
+        "internalName": "life_stealer_open_wounds"
+      },
+      {
+        "id": 5250,
+        "name": "Feast",
+        "internalName": "life_stealer_feast"
+      },
+      {
+        "id": 631,
+        "name": "Ghoul Frenzy",
+        "internalName": "life_stealer_ghoul_frenzy"
+      },
+      {
+        "id": 5252,
+        "name": "Infest",
+        "internalName": "life_stealer_infest"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 55,
+    "name": "Dark Seer",
+    "internalName": "npc_dota_hero_dark_seer",
+    "attribute": "intelligence",
+    "attackType": "melee",
+    "roles": [
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5255,
+        "name": "Vacuum",
+        "internalName": "dark_seer_vacuum"
+      },
+      {
+        "id": 5256,
+        "name": "Ion Shell",
+        "internalName": "dark_seer_ion_shell"
+      },
+      {
+        "id": 5257,
+        "name": "Surge",
+        "internalName": "dark_seer_surge"
+      },
+      {
+        "id": 687,
+        "name": "Normal Punch",
+        "internalName": "dark_seer_normal_punch"
+      },
+      {
+        "id": 1553,
+        "name": "Quick Wit",
+        "internalName": "dark_seer_aggrandize"
+      },
+      {
+        "id": 5258,
+        "name": "Wall of Replica",
+        "internalName": "dark_seer_wall_of_replica"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 56,
+    "name": "Clinkz",
+    "internalName": "npc_dota_hero_clinkz",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "escape",
+      "pusher"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 1120,
+        "name": "Strafe",
+        "internalName": "clinkz_strafe"
+      },
+      {
+        "id": 5260,
+        "name": "Searing Arrows",
+        "internalName": "clinkz_searing_arrows"
+      },
+      {
+        "id": 5262,
+        "name": "Death Pact",
+        "internalName": "clinkz_death_pact"
+      },
+      {
+        "id": 5259,
+        "name": "Burning Barrage",
+        "internalName": "clinkz_burning_barrage"
+      },
+      {
+        "id": 7319,
+        "name": "Burning Army",
+        "internalName": "clinkz_burning_army"
+      },
+      {
+        "id": 5261,
+        "name": "Skeleton Walk",
+        "internalName": "clinkz_wind_walk"
+      },
+      {
+        "id": 1678,
+        "name": "Infernal Shred",
+        "internalName": "clinkz_infernal_shred"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 57,
+    "name": "Omniknight",
+    "internalName": "npc_dota_hero_omniknight",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "support",
+      "nuker",
+      "durable"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5263,
+        "name": "Purification",
+        "internalName": "omniknight_purification"
+      },
+      {
+        "id": 895,
+        "name": "Repel",
+        "internalName": "omniknight_martyr"
+      },
+      {
+        "id": 656,
+        "name": "Hammer of Purity",
+        "internalName": "omniknight_hammer_of_purity"
+      },
+      {
+        "id": 5265,
+        "name": "Degen Aura",
+        "internalName": "omniknight_degen_aura"
+      },
+      {
+        "id": 5266,
+        "name": "Guardian Angel",
+        "internalName": "omniknight_guardian_angel"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 58,
+    "name": "Enchantress",
+    "internalName": "npc_dota_hero_enchantress",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "disabler",
+      "durable",
+      "pusher"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5270,
+        "name": "Impetus",
+        "internalName": "enchantress_impetus"
+      },
+      {
+        "id": 5268,
+        "name": "Enchant",
+        "internalName": "enchantress_enchant"
+      },
+      {
+        "id": 5269,
+        "name": "Nature's Attendants",
+        "internalName": "enchantress_natures_attendants"
+      },
+      {
+        "id": 320,
+        "name": "Sproink",
+        "internalName": "enchantress_bunny_hop"
+      },
+      {
+        "id": 981,
+        "name": "Little Friends",
+        "internalName": "enchantress_little_friends"
+      },
+      {
+        "id": 5267,
+        "name": "Untouchable",
+        "internalName": "enchantress_untouchable"
+      },
+      {
+        "id": 1464,
+        "name": "Rabble-Rouser",
+        "internalName": "enchantress_rabblerouser"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 59,
+    "name": "Huskar",
+    "internalName": "npc_dota_hero_huskar",
+    "attribute": "strength",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 7300,
+        "name": "Inner Fire",
+        "internalName": "huskar_inner_fire"
+      },
+      {
+        "id": 5272,
+        "name": "Burning Spear",
+        "internalName": "huskar_burning_spear"
+      },
+      {
+        "id": 5273,
+        "name": "Berserker's Blood",
+        "internalName": "huskar_berserkers_blood"
+      },
+      {
+        "id": 1309,
+        "name": "Blood Magic",
+        "internalName": "huskar_blood_magic"
+      },
+      {
+        "id": 5274,
+        "name": "Life Break",
+        "internalName": "huskar_life_break"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 60,
+    "name": "Night Stalker",
+    "internalName": "npc_dota_hero_night_stalker",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5275,
+        "name": "Void",
+        "internalName": "night_stalker_void"
+      },
+      {
+        "id": 5276,
+        "name": "Crippling Fear",
+        "internalName": "night_stalker_crippling_fear"
+      },
+      {
+        "id": 1753,
+        "name": "Midnight Feast",
+        "internalName": "night_stalker_midnight_feast"
+      },
+      {
+        "id": 5277,
+        "name": "Hunter in the Night",
+        "internalName": "night_stalker_hunter_in_the_night"
+      },
+      {
+        "id": 5278,
+        "name": "Dark Ascension",
+        "internalName": "night_stalker_darkness"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 61,
+    "name": "Broodmother",
+    "internalName": "npc_dota_hero_broodmother",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "escape",
+      "pusher"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5282,
+        "name": "Insatiable Hunger",
+        "internalName": "broodmother_insatiable_hunger"
+      },
+      {
+        "id": 5280,
+        "name": "Spin Web",
+        "internalName": "broodmother_spin_web"
+      },
+      {
+        "id": 5281,
+        "name": "Incapacitating Bite",
+        "internalName": "broodmother_incapacitating_bite"
+      },
+      {
+        "id": 873,
+        "name": "Spinner's Snare",
+        "internalName": "broodmother_sticky_snare"
+      },
+      {
+        "id": 1313,
+        "name": "Spider's Milk",
+        "internalName": "broodmother_spiders_milk"
+      },
+      {
+        "id": 5279,
+        "name": "Spawn Spiderlings",
+        "internalName": "broodmother_spawn_spiderlings"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 62,
+    "name": "Bounty Hunter",
+    "internalName": "npc_dota_hero_bounty_hunter",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "nuker",
+      "escape"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 1314,
+        "name": "Shuriken Toss",
+        "internalName": "bounty_hunter_shuriken_toss"
+      },
+      {
+        "id": 5286,
+        "name": "Jinada",
+        "internalName": "bounty_hunter_jinada"
+      },
+      {
+        "id": 5287,
+        "name": "Shadow Walk",
+        "internalName": "bounty_hunter_wind_walk"
+      },
+      {
+        "id": 1136,
+        "name": "Friendly Shadow",
+        "internalName": "bounty_hunter_wind_walk_ally"
+      },
+      {
+        "id": 1316,
+        "name": "Big Game Hunter",
+        "internalName": "bounty_hunter_big_game_hunter"
+      },
+      {
+        "id": 5288,
+        "name": "Track",
+        "internalName": "bounty_hunter_track"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 63,
+    "name": "Weaver",
+    "internalName": "npc_dota_hero_weaver",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5289,
+        "name": "The Swarm",
+        "internalName": "weaver_the_swarm"
+      },
+      {
+        "id": 5290,
+        "name": "Shukuchi",
+        "internalName": "weaver_shukuchi"
+      },
+      {
+        "id": 5291,
+        "name": "Geminate Attack",
+        "internalName": "weaver_geminate_attack"
+      },
+      {
+        "id": 5292,
+        "name": "Time Lapse",
+        "internalName": "weaver_time_lapse"
+      },
+      {
+        "id": 1754,
+        "name": "Threads of Fate",
+        "internalName": "weaver_threads_of_fate"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 64,
+    "name": "Jakiro",
+    "internalName": "npc_dota_hero_jakiro",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "pusher"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5297,
+        "name": "Dual Breath",
+        "internalName": "jakiro_dual_breath"
+      },
+      {
+        "id": 5298,
+        "name": "Ice Path",
+        "internalName": "jakiro_ice_path"
+      },
+      {
+        "id": 5299,
+        "name": "Liquid Fire",
+        "internalName": "jakiro_liquid_fire"
+      },
+      {
+        "id": 1317,
+        "name": "Liquid Frost",
+        "internalName": "jakiro_liquid_ice"
+      },
+      {
+        "id": 1318,
+        "name": "Double Trouble",
+        "internalName": "jakiro_double_trouble"
+      },
+      {
+        "id": 5300,
+        "name": "Macropyre",
+        "internalName": "jakiro_macropyre"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 65,
+    "name": "Batrider",
+    "internalName": "npc_dota_hero_batrider",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5320,
+        "name": "Sticky Napalm",
+        "internalName": "batrider_sticky_napalm"
+      },
+      {
+        "id": 5321,
+        "name": "Flamebreak",
+        "internalName": "batrider_flamebreak"
+      },
+      {
+        "id": 5322,
+        "name": "Firefly",
+        "internalName": "batrider_firefly"
+      },
+      {
+        "id": 1319,
+        "name": "Smoldering Resin",
+        "internalName": "batrider_smoldering_resin"
+      },
+      {
+        "id": 5323,
+        "name": "Flaming Lasso",
+        "internalName": "batrider_flaming_lasso"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 66,
+    "name": "Chen",
+    "internalName": "npc_dota_hero_chen",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "pusher"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5328,
+        "name": "Penitence",
+        "internalName": "chen_penitence"
+      },
+      {
+        "id": 5330,
+        "name": "Holy Persuasion",
+        "internalName": "chen_holy_persuasion"
+      },
+      {
+        "id": 7306,
+        "name": "Divine Favor",
+        "internalName": "chen_divine_favor"
+      },
+      {
+        "id": 1755,
+        "name": "Zealot",
+        "internalName": "chen_zealot"
+      },
+      {
+        "id": 5331,
+        "name": "Hand of God",
+        "internalName": "chen_hand_of_god"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 67,
+    "name": "Spectre",
+    "internalName": "npc_dota_hero_spectre",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "durable",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5334,
+        "name": "Spectral Dagger",
+        "internalName": "spectre_spectral_dagger"
+      },
+      {
+        "id": 1679,
+        "name": "Shadow Step",
+        "internalName": "spectre_shadow_step"
+      },
+      {
+        "id": 5336,
+        "name": "Dispersion",
+        "internalName": "spectre_dispersion"
+      },
+      {
+        "id": 5335,
+        "name": "Desolate",
+        "internalName": "spectre_desolate"
+      },
+      {
+        "id": 5337,
+        "name": "Haunt",
+        "internalName": "spectre_haunt"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 68,
+    "name": "Ancient Apparition",
+    "internalName": "npc_dota_hero_ancient_apparition",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5345,
+        "name": "Cold Feet",
+        "internalName": "ancient_apparition_cold_feet"
+      },
+      {
+        "id": 5346,
+        "name": "Ice Vortex",
+        "internalName": "ancient_apparition_ice_vortex"
+      },
+      {
+        "id": 5347,
+        "name": "Chilling Touch",
+        "internalName": "ancient_apparition_chilling_touch"
+      },
+      {
+        "id": 1756,
+        "name": "Bone Chill",
+        "internalName": "ancient_apparition_bone_chill"
+      },
+      {
+        "id": 5348,
+        "name": "Ice Blast",
+        "internalName": "ancient_apparition_ice_blast"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 69,
+    "name": "Doom",
+    "internalName": "npc_dota_hero_doom_bringer",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5339,
+        "name": "Devour",
+        "internalName": "doom_bringer_devour"
+      },
+      {
+        "id": 5340,
+        "name": "Scorched Earth",
+        "internalName": "doom_bringer_scorched_earth"
+      },
+      {
+        "id": 5341,
+        "name": "Infernal Blade",
+        "internalName": "doom_bringer_infernal_blade"
+      },
+      {
+        "id": 5342,
+        "name": "Doom",
+        "internalName": "doom_bringer_doom"
+      },
+      {
+        "id": 1324,
+        "name": "Lvl ? Pain",
+        "internalName": "doom_bringer_lvl_pain"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 70,
+    "name": "Ursa",
+    "internalName": "npc_dota_hero_ursa",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "disabler",
+      "durable"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5357,
+        "name": "Earthshock",
+        "internalName": "ursa_earthshock"
+      },
+      {
+        "id": 5358,
+        "name": "Overpower",
+        "internalName": "ursa_overpower"
+      },
+      {
+        "id": 5359,
+        "name": "Fury Swipes",
+        "internalName": "ursa_fury_swipes"
+      },
+      {
+        "id": 1327,
+        "name": "Maul",
+        "internalName": "ursa_maul"
+      },
+      {
+        "id": 5360,
+        "name": "Enrage",
+        "internalName": "ursa_enrage"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 71,
+    "name": "Spirit Breaker",
+    "internalName": "npc_dota_hero_spirit_breaker",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "disabler",
+      "durable",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5353,
+        "name": "Charge of Darkness",
+        "internalName": "spirit_breaker_charge_of_darkness"
+      },
+      {
+        "id": 7301,
+        "name": "Bulldoze",
+        "internalName": "spirit_breaker_bulldoze"
+      },
+      {
+        "id": 5355,
+        "name": "Greater Bash",
+        "internalName": "spirit_breaker_greater_bash"
+      },
+      {
+        "id": 987,
+        "name": "Planar Pocket",
+        "internalName": "spirit_breaker_planar_pocket"
+      },
+      {
+        "id": 1757,
+        "name": "Empowering Haste",
+        "internalName": "spirit_breaker_bull_rush"
+      },
+      {
+        "id": 5356,
+        "name": "Nether Strike",
+        "internalName": "spirit_breaker_nether_strike"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 72,
+    "name": "Gyrocopter",
+    "internalName": "npc_dota_hero_gyrocopter",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5361,
+        "name": "Rocket Barrage",
+        "internalName": "gyrocopter_rocket_barrage"
+      },
+      {
+        "id": 5362,
+        "name": "Homing Missile",
+        "internalName": "gyrocopter_homing_missile"
+      },
+      {
+        "id": 5363,
+        "name": "Flak Cannon",
+        "internalName": "gyrocopter_flak_cannon"
+      },
+      {
+        "id": 1759,
+        "name": "Afterburner",
+        "internalName": "gyrocopter_afterburner"
+      },
+      {
+        "id": 1758,
+        "name": "Side Gunner",
+        "internalName": "gyrocopter_side_gunner_spawn_ability"
+      },
+      {
+        "id": 5364,
+        "name": "Call Down",
+        "internalName": "gyrocopter_call_down"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 73,
+    "name": "Alchemist",
+    "internalName": "npc_dota_hero_alchemist",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "support",
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5365,
+        "name": "Acid Spray",
+        "internalName": "alchemist_acid_spray"
+      },
+      {
+        "id": 5366,
+        "name": "Unstable Concoction",
+        "internalName": "alchemist_unstable_concoction"
+      },
+      {
+        "id": 1116,
+        "name": "Corrosive Weaponry",
+        "internalName": "alchemist_corrosive_weaponry"
+      },
+      {
+        "id": 642,
+        "name": "Berserk Potion",
+        "internalName": "alchemist_berserk_potion"
+      },
+      {
+        "id": 1333,
+        "name": "Greevil's Greed",
+        "internalName": "alchemist_goblins_greed"
+      },
+      {
+        "id": 5369,
+        "name": "Chemical Rage",
+        "internalName": "alchemist_chemical_rage"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 74,
+    "name": "Invoker",
+    "internalName": "npc_dota_hero_invoker",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "escape",
+      "pusher"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5370,
+        "name": "Quas",
+        "internalName": "invoker_quas"
+      },
+      {
+        "id": 5371,
+        "name": "Wex",
+        "internalName": "invoker_wex"
+      },
+      {
+        "id": 5372,
+        "name": "Exort",
+        "internalName": "invoker_exort"
+      },
+      {
+        "id": 5375,
+        "name": "Invoke",
+        "internalName": "invoker_invoke"
+      },
+      {
+        "id": 5376,
+        "name": "Cold Snap",
+        "internalName": "invoker_cold_snap"
+      },
+      {
+        "id": 5381,
+        "name": "Ghost Walk",
+        "internalName": "invoker_ghost_walk"
+      },
+      {
+        "id": 5382,
+        "name": "Tornado",
+        "internalName": "invoker_tornado"
+      },
+      {
+        "id": 5383,
+        "name": "E.M.P.",
+        "internalName": "invoker_emp"
+      },
+      {
+        "id": 5384,
+        "name": "Alacrity",
+        "internalName": "invoker_alacrity"
+      },
+      {
+        "id": 5385,
+        "name": "Chaos Meteor",
+        "internalName": "invoker_chaos_meteor"
+      },
+      {
+        "id": 5386,
+        "name": "Sun Strike",
+        "internalName": "invoker_sun_strike"
+      },
+      {
+        "id": 5387,
+        "name": "Forge Spirit",
+        "internalName": "invoker_forge_spirit"
+      },
+      {
+        "id": 5389,
+        "name": "Ice Wall",
+        "internalName": "invoker_ice_wall"
+      },
+      {
+        "id": 5390,
+        "name": "Deafening Blast",
+        "internalName": "invoker_deafening_blast"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 75,
+    "name": "Silencer",
+    "internalName": "npc_dota_hero_silencer",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "support",
+      "nuker",
+      "disabler",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5377,
+        "name": "Arcane Curse",
+        "internalName": "silencer_curse_of_the_silent"
+      },
+      {
+        "id": 5378,
+        "name": "Glaives of Wisdom",
+        "internalName": "silencer_glaives_of_wisdom"
+      },
+      {
+        "id": 5379,
+        "name": "Last Word",
+        "internalName": "silencer_last_word"
+      },
+      {
+        "id": 1335,
+        "name": "Suffer In Silence",
+        "internalName": "silencer_brain_drain"
+      },
+      {
+        "id": 5380,
+        "name": "Global Silence",
+        "internalName": "silencer_global_silence"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 76,
+    "name": "Outworld Destroyer",
+    "internalName": "npc_dota_hero_obsidian_destroyer",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5391,
+        "name": "Arcane Orb",
+        "internalName": "obsidian_destroyer_arcane_orb"
+      },
+      {
+        "id": 5392,
+        "name": "Astral Imprisonment",
+        "internalName": "obsidian_destroyer_astral_imprisonment"
+      },
+      {
+        "id": 1760,
+        "name": "Objurgation",
+        "internalName": "obsidian_destroyer_objurgation"
+      },
+      {
+        "id": 5684,
+        "name": "Essence Flux",
+        "internalName": "obsidian_destroyer_equilibrium"
+      },
+      {
+        "id": 5394,
+        "name": "Sanity's Eclipse",
+        "internalName": "obsidian_destroyer_sanity_eclipse"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 77,
+    "name": "Lycan",
+    "internalName": "npc_dota_hero_lycan",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "durable",
+      "escape",
+      "pusher"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5395,
+        "name": "Summon Wolves",
+        "internalName": "lycan_summon_wolves"
+      },
+      {
+        "id": 5396,
+        "name": "Howl",
+        "internalName": "lycan_howl"
+      },
+      {
+        "id": 5397,
+        "name": "Feral Impulse",
+        "internalName": "lycan_feral_impulse"
+      },
+      {
+        "id": 333,
+        "name": "Wolf Bite",
+        "internalName": "lycan_wolf_bite"
+      },
+      {
+        "id": 1339,
+        "name": "Apex Predator",
+        "internalName": "lycan_apex_predator"
+      },
+      {
+        "id": 5398,
+        "name": "Shapeshift",
+        "internalName": "lycan_shapeshift"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 78,
+    "name": "Brewmaster",
+    "internalName": "npc_dota_hero_brewmaster",
+    "attribute": "universal",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5400,
+        "name": "Thunder Clap",
+        "internalName": "brewmaster_thunder_clap"
+      },
+      {
+        "id": 7310,
+        "name": "Cinder Brew",
+        "internalName": "brewmaster_cinder_brew"
+      },
+      {
+        "id": 5402,
+        "name": "Drunken Brawler",
+        "internalName": "brewmaster_drunken_brawler"
+      },
+      {
+        "id": 1681,
+        "name": "Liquid Courage",
+        "internalName": "brewmaster_liquid_courage"
+      },
+      {
+        "id": 5403,
+        "name": "Primal Split",
+        "internalName": "brewmaster_primal_split"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 79,
+    "name": "Shadow Demon",
+    "internalName": "npc_dota_hero_shadow_demon",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5421,
+        "name": "Disruption",
+        "internalName": "shadow_demon_disruption"
+      },
+      {
+        "id": 1001,
+        "name": "Disseminate",
+        "internalName": "shadow_demon_disseminate"
+      },
+      {
+        "id": 5423,
+        "name": "Shadow Poison",
+        "internalName": "shadow_demon_shadow_poison"
+      },
+      {
+        "id": 916,
+        "name": "Demonic Cleanse",
+        "internalName": "shadow_demon_demonic_cleanse"
+      },
+      {
+        "id": 5425,
+        "name": "Demonic Purge",
+        "internalName": "shadow_demon_demonic_purge"
+      },
+      {
+        "id": 1341,
+        "name": "Menace",
+        "internalName": "shadow_demon_menace"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 80,
+    "name": "Lone Druid",
+    "internalName": "npc_dota_hero_lone_druid",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "durable",
+      "pusher"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 1684,
+        "name": "Entangle",
+        "internalName": "lone_druid_entangle"
+      },
+      {
+        "id": 7309,
+        "name": "Spirit Link",
+        "internalName": "lone_druid_spirit_link"
+      },
+      {
+        "id": 5414,
+        "name": "Savage Roar",
+        "internalName": "lone_druid_savage_roar"
+      },
+      {
+        "id": 1342,
+        "name": "Summon Spirit Bear",
+        "internalName": "lone_druid_spirit_bear"
+      },
+      {
+        "id": 5415,
+        "name": "True Form",
+        "internalName": "lone_druid_true_form"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 81,
+    "name": "Chaos Knight",
+    "internalName": "npc_dota_hero_chaos_knight",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "disabler",
+      "durable",
+      "pusher",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5426,
+        "name": "Chaos Bolt",
+        "internalName": "chaos_knight_chaos_bolt"
+      },
+      {
+        "id": 5427,
+        "name": "Reality Rift",
+        "internalName": "chaos_knight_reality_rift"
+      },
+      {
+        "id": 5428,
+        "name": "Chaos Strike",
+        "internalName": "chaos_knight_chaos_strike"
+      },
+      {
+        "id": 1556,
+        "name": "Fundamental Forging",
+        "internalName": "chaos_knight_fundamental_forging"
+      },
+      {
+        "id": 5429,
+        "name": "Phantasm",
+        "internalName": "chaos_knight_phantasm"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 82,
+    "name": "Meepo",
+    "internalName": "npc_dota_hero_meepo",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "escape",
+      "pusher",
+      "initiator"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5430,
+        "name": "Earthbind",
+        "internalName": "meepo_earthbind"
+      },
+      {
+        "id": 5431,
+        "name": "Poof",
+        "internalName": "meepo_poof"
+      },
+      {
+        "id": 7318,
+        "name": "Ransack",
+        "internalName": "meepo_ransack"
+      },
+      {
+        "id": 547,
+        "name": "Dig",
+        "internalName": "meepo_petrify"
+      },
+      {
+        "id": 1109,
+        "name": "MegaMeepo",
+        "internalName": "meepo_megameepo"
+      },
+      {
+        "id": 5433,
+        "name": "Divided We Stand",
+        "internalName": "meepo_divided_we_stand"
+      },
+      {
+        "id": 1763,
+        "name": "Geomancy",
+        "internalName": "meepo_geomancy"
+      },
+      {
+        "id": 329,
+        "name": "MegaMeepo Fling",
+        "internalName": "meepo_megameepo_fling"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 83,
+    "name": "Treant Protector",
+    "internalName": "npc_dota_hero_treant",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "support",
+      "disabler",
+      "durable",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 338,
+        "name": "Nature's Grasp",
+        "internalName": "treant_natures_grasp"
+      },
+      {
+        "id": 5435,
+        "name": "Leech Seed",
+        "internalName": "treant_leech_seed"
+      },
+      {
+        "id": 5436,
+        "name": "Living Armor",
+        "internalName": "treant_living_armor"
+      },
+      {
+        "id": 5649,
+        "name": "Eyes In The Forest",
+        "internalName": "treant_eyes_in_the_forest"
+      },
+      {
+        "id": 5434,
+        "name": "Nature's Guise",
+        "internalName": "treant_natures_guise"
+      },
+      {
+        "id": 5437,
+        "name": "Overgrowth",
+        "internalName": "treant_overgrowth"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 84,
+    "name": "Ogre Magi",
+    "internalName": "npc_dota_hero_ogre_magi",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5438,
+        "name": "Fireblast",
+        "internalName": "ogre_magi_fireblast"
+      },
+      {
+        "id": 5439,
+        "name": "Ignite",
+        "internalName": "ogre_magi_ignite"
+      },
+      {
+        "id": 5440,
+        "name": "Bloodlust",
+        "internalName": "ogre_magi_bloodlust"
+      },
+      {
+        "id": 5466,
+        "name": "Unrefined Fireblast",
+        "internalName": "ogre_magi_unrefined_fireblast"
+      },
+      {
+        "id": 648,
+        "name": "Fire Shield",
+        "internalName": "ogre_magi_smash"
+      },
+      {
+        "id": 1115,
+        "name": "Dumb Luck",
+        "internalName": "ogre_magi_dumb_luck"
+      },
+      {
+        "id": 5441,
+        "name": "Multicast",
+        "internalName": "ogre_magi_multicast"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 85,
+    "name": "Undying",
+    "internalName": "npc_dota_hero_undying",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "durable"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5442,
+        "name": "Decay",
+        "internalName": "undying_decay"
+      },
+      {
+        "id": 5443,
+        "name": "Soul Rip",
+        "internalName": "undying_soul_rip"
+      },
+      {
+        "id": 5444,
+        "name": "Tombstone",
+        "internalName": "undying_tombstone"
+      },
+      {
+        "id": 1360,
+        "name": "Ceaseless Dirge",
+        "internalName": "undying_ceaseless_dirge"
+      },
+      {
+        "id": 5447,
+        "name": "Flesh Golem",
+        "internalName": "undying_flesh_golem"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 86,
+    "name": "Rubick",
+    "internalName": "npc_dota_hero_rubick",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5448,
+        "name": "Telekinesis",
+        "internalName": "rubick_telekinesis"
+      },
+      {
+        "id": 5450,
+        "name": "Fade Bolt",
+        "internalName": "rubick_fade_bolt"
+      },
+      {
+        "id": 7320,
+        "name": "Arcane Supremacy",
+        "internalName": "rubick_arcane_supremacy"
+      },
+      {
+        "id": 5452,
+        "name": "Spell Steal",
+        "internalName": "rubick_spell_steal"
+      },
+      {
+        "id": 1765,
+        "name": "Curiosity",
+        "internalName": "rubick_curiosity"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 87,
+    "name": "Disruptor",
+    "internalName": "npc_dota_hero_disruptor",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5458,
+        "name": "Thunder Strike",
+        "internalName": "disruptor_thunder_strike"
+      },
+      {
+        "id": 5459,
+        "name": "Glimpse",
+        "internalName": "disruptor_glimpse"
+      },
+      {
+        "id": 5460,
+        "name": "Kinetic Field",
+        "internalName": "disruptor_kinetic_field"
+      },
+      {
+        "id": 1362,
+        "name": "Kinetic Fence",
+        "internalName": "disruptor_kinetic_fence"
+      },
+      {
+        "id": 1363,
+        "name": "Electromagnetic Repulsion",
+        "internalName": "disruptor_electromagnetic_repulsion"
+      },
+      {
+        "id": 5461,
+        "name": "Static Storm",
+        "internalName": "disruptor_static_storm"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 88,
+    "name": "Nyx Assassin",
+    "internalName": "npc_dota_hero_nyx_assassin",
+    "attribute": "universal",
+    "attackType": "melee",
+    "roles": [
+      "nuker",
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5462,
+        "name": "Impale",
+        "internalName": "nyx_assassin_impale"
+      },
+      {
+        "id": 1104,
+        "name": "Mind Flare",
+        "internalName": "nyx_assassin_jolt"
+      },
+      {
+        "id": 5464,
+        "name": "Spiked Carapace",
+        "internalName": "nyx_assassin_spiked_carapace"
+      },
+      {
+        "id": 5666,
+        "name": "Burrow",
+        "internalName": "nyx_assassin_burrow"
+      },
+      {
+        "id": 1767,
+        "name": "Mana Burn",
+        "internalName": "nyx_assassin_neuro_sting"
+      },
+      {
+        "id": 5465,
+        "name": "Vendetta",
+        "internalName": "nyx_assassin_vendetta"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 89,
+    "name": "Naga Siren",
+    "internalName": "npc_dota_hero_naga_siren",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "support",
+      "disabler",
+      "escape",
+      "pusher",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5467,
+        "name": "Mirror Image",
+        "internalName": "naga_siren_mirror_image"
+      },
+      {
+        "id": 5468,
+        "name": "Ensnare",
+        "internalName": "naga_siren_ensnare"
+      },
+      {
+        "id": 5469,
+        "name": "Rip Tide",
+        "internalName": "naga_siren_rip_tide"
+      },
+      {
+        "id": 1370,
+        "name": "Eelskin",
+        "internalName": "naga_siren_eelskin"
+      },
+      {
+        "id": 5470,
+        "name": "Song of the Siren",
+        "internalName": "naga_siren_song_of_the_siren"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 90,
+    "name": "Keeper of the Light",
+    "internalName": "npc_dota_hero_keeper_of_the_light",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5471,
+        "name": "Illuminate",
+        "internalName": "keeper_of_the_light_illuminate"
+      },
+      {
+        "id": 5476,
+        "name": "Blinding Light",
+        "internalName": "keeper_of_the_light_blinding_light"
+      },
+      {
+        "id": 5473,
+        "name": "Chakra Magic",
+        "internalName": "keeper_of_the_light_chakra_magic"
+      },
+      {
+        "id": 1372,
+        "name": "Solar Bind",
+        "internalName": "keeper_of_the_light_radiant_bind"
+      },
+      {
+        "id": 7316,
+        "name": "Will-O-Wisp",
+        "internalName": "keeper_of_the_light_will_o_wisp"
+      },
+      {
+        "id": 5474,
+        "name": "Spirit Form",
+        "internalName": "keeper_of_the_light_spirit_form"
+      },
+      {
+        "id": 1769,
+        "name": "Bright Speed",
+        "internalName": "keeper_of_the_light_bright_speed"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 91,
+    "name": "Io",
+    "internalName": "npc_dota_hero_wisp",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "escape"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5485,
+        "name": "Tether",
+        "internalName": "wisp_tether"
+      },
+      {
+        "id": 5486,
+        "name": "Spirits",
+        "internalName": "wisp_spirits"
+      },
+      {
+        "id": 5487,
+        "name": "Overcharge",
+        "internalName": "wisp_overcharge"
+      },
+      {
+        "id": 5490,
+        "name": "Spirits In",
+        "internalName": "wisp_spirits_in"
+      },
+      {
+        "id": 5493,
+        "name": "Spirits Out",
+        "internalName": "wisp_spirits_out"
+      },
+      {
+        "id": 5488,
+        "name": "Relocate",
+        "internalName": "wisp_relocate"
+      },
+      {
+        "id": 1770,
+        "name": "Equilibrium",
+        "internalName": "wisp_equilibrium"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 92,
+    "name": "Visage",
+    "internalName": "npc_dota_hero_visage",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "durable",
+      "pusher"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5480,
+        "name": "Grave Chill",
+        "internalName": "visage_grave_chill"
+      },
+      {
+        "id": 5481,
+        "name": "Soul Assumption",
+        "internalName": "visage_soul_assumption"
+      },
+      {
+        "id": 5482,
+        "name": "Gravekeeper's Cloak",
+        "internalName": "visage_gravekeepers_cloak"
+      },
+      {
+        "id": 683,
+        "name": "Silent as the Grave",
+        "internalName": "visage_silent_as_the_grave"
+      },
+      {
+        "id": 5483,
+        "name": "Summon Familiars",
+        "internalName": "visage_summon_familiars"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 93,
+    "name": "Slark",
+    "internalName": "npc_dota_hero_slark",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5494,
+        "name": "Dark Pact",
+        "internalName": "slark_dark_pact"
+      },
+      {
+        "id": 5495,
+        "name": "Pounce",
+        "internalName": "slark_pounce"
+      },
+      {
+        "id": 1693,
+        "name": "Saltwater Shiv",
+        "internalName": "slark_saltwater_shiv"
+      },
+      {
+        "id": 729,
+        "name": "Depth Shroud",
+        "internalName": "slark_depth_shroud"
+      },
+      {
+        "id": 5496,
+        "name": "Essence Shift",
+        "internalName": "slark_essence_shift"
+      },
+      {
+        "id": 5497,
+        "name": "Shadow Dance",
+        "internalName": "slark_shadow_dance"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 94,
+    "name": "Medusa",
+    "internalName": "npc_dota_hero_medusa",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "disabler",
+      "durable"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5504,
+        "name": "Split Shot",
+        "internalName": "medusa_split_shot"
+      },
+      {
+        "id": 5505,
+        "name": "Mystic Snake",
+        "internalName": "medusa_mystic_snake"
+      },
+      {
+        "id": 1475,
+        "name": "Gorgon's Grasp",
+        "internalName": "medusa_gorgon_grasp"
+      },
+      {
+        "id": 701,
+        "name": "Cold Blooded",
+        "internalName": "medusa_cold_blooded"
+      },
+      {
+        "id": 5506,
+        "name": "Mana Shield",
+        "internalName": "medusa_mana_shield"
+      },
+      {
+        "id": 5507,
+        "name": "Stone Gaze",
+        "internalName": "medusa_stone_gaze"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 95,
+    "name": "Troll Warlord",
+    "internalName": "npc_dota_hero_troll_warlord",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "disabler",
+      "durable",
+      "pusher"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 1478,
+        "name": "Battle Stance",
+        "internalName": "troll_warlord_switch_stance"
+      },
+      {
+        "id": 5509,
+        "name": "Whirling Axes (Ranged)",
+        "internalName": "troll_warlord_whirling_axes_ranged"
+      },
+      {
+        "id": 5510,
+        "name": "Whirling Axes (Melee)",
+        "internalName": "troll_warlord_whirling_axes_melee"
+      },
+      {
+        "id": 5511,
+        "name": "Fervor",
+        "internalName": "troll_warlord_fervor"
+      },
+      {
+        "id": 5508,
+        "name": "Berserker's Rage",
+        "internalName": "troll_warlord_berserkers_rage"
+      },
+      {
+        "id": 5512,
+        "name": "Battle Trance",
+        "internalName": "troll_warlord_battle_trance"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 96,
+    "name": "Centaur Warrunner",
+    "internalName": "npc_dota_hero_centaur",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "nuker",
+      "disabler",
+      "durable",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5514,
+        "name": "Hoof Stomp",
+        "internalName": "centaur_hoof_stomp"
+      },
+      {
+        "id": 5515,
+        "name": "Double Edge",
+        "internalName": "centaur_double_edge"
+      },
+      {
+        "id": 5516,
+        "name": "Retaliate",
+        "internalName": "centaur_return"
+      },
+      {
+        "id": 1135,
+        "name": "Work Horse",
+        "internalName": "centaur_work_horse"
+      },
+      {
+        "id": 5517,
+        "name": "Stampede",
+        "internalName": "centaur_stampede"
+      },
+      {
+        "id": 1379,
+        "name": "Horsepower",
+        "internalName": "centaur_horsepower"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 97,
+    "name": "Magnus",
+    "internalName": "npc_dota_hero_magnataur",
+    "attribute": "universal",
+    "attackType": "melee",
+    "roles": [
+      "nuker",
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5518,
+        "name": "Shockwave",
+        "internalName": "magnataur_shockwave"
+      },
+      {
+        "id": 5519,
+        "name": "Empower",
+        "internalName": "magnataur_empower"
+      },
+      {
+        "id": 5520,
+        "name": "Skewer",
+        "internalName": "magnataur_skewer"
+      },
+      {
+        "id": 649,
+        "name": "Horn Toss",
+        "internalName": "magnataur_horn_toss"
+      },
+      {
+        "id": 1382,
+        "name": "Solid Core",
+        "internalName": "magnataur_solid_core"
+      },
+      {
+        "id": 5521,
+        "name": "Reverse Polarity",
+        "internalName": "magnataur_reverse_polarity"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 98,
+    "name": "Timbersaw",
+    "internalName": "npc_dota_hero_shredder",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "nuker",
+      "durable",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5524,
+        "name": "Whirling Death",
+        "internalName": "shredder_whirling_death"
+      },
+      {
+        "id": 5525,
+        "name": "Timber Chain",
+        "internalName": "shredder_timber_chain"
+      },
+      {
+        "id": 5526,
+        "name": "Reactive Armor",
+        "internalName": "shredder_reactive_armor"
+      },
+      {
+        "id": 651,
+        "name": "Flamethrower",
+        "internalName": "shredder_flamethrower"
+      },
+      {
+        "id": 5527,
+        "name": "Chakram",
+        "internalName": "shredder_chakram"
+      },
+      {
+        "id": 1384,
+        "name": "Exposure Therapy",
+        "internalName": "shredder_exposure_therapy"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 99,
+    "name": "Bristleback",
+    "internalName": "npc_dota_hero_bristleback",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5548,
+        "name": "Viscous Nasal Goo",
+        "internalName": "bristleback_viscous_nasal_goo"
+      },
+      {
+        "id": 5549,
+        "name": "Quill Spray",
+        "internalName": "bristleback_quill_spray"
+      },
+      {
+        "id": 5550,
+        "name": "Bristleback",
+        "internalName": "bristleback_bristleback"
+      },
+      {
+        "id": 643,
+        "name": "Hairball",
+        "internalName": "bristleback_hairball"
+      },
+      {
+        "id": 5551,
+        "name": "Warpath",
+        "internalName": "bristleback_warpath"
+      },
+      {
+        "id": 1479,
+        "name": "Prickly",
+        "internalName": "bristleback_prickly"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 100,
+    "name": "Tusk",
+    "internalName": "npc_dota_hero_tusk",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "nuker",
+      "disabler",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5565,
+        "name": "Ice Shards",
+        "internalName": "tusk_ice_shards"
+      },
+      {
+        "id": 5566,
+        "name": "Snowball",
+        "internalName": "tusk_snowball"
+      },
+      {
+        "id": 7322,
+        "name": "Tag Team",
+        "internalName": "tusk_tag_team"
+      },
+      {
+        "id": 1385,
+        "name": "Drinking Buddies",
+        "internalName": "tusk_drinking_buddies"
+      },
+      {
+        "id": 5672,
+        "name": "Walrus Kick",
+        "internalName": "tusk_walrus_kick"
+      },
+      {
+        "id": 5568,
+        "name": "Walrus PUNCH!",
+        "internalName": "tusk_walrus_punch"
+      },
+      {
+        "id": 1386,
+        "name": "Bitter Chill",
+        "internalName": "tusk_bitter_chill"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 101,
+    "name": "Skywrath Mage",
+    "internalName": "npc_dota_hero_skywrath_mage",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5581,
+        "name": "Arcane Bolt",
+        "internalName": "skywrath_mage_arcane_bolt"
+      },
+      {
+        "id": 5582,
+        "name": "Concussive Shot",
+        "internalName": "skywrath_mage_concussive_shot"
+      },
+      {
+        "id": 5583,
+        "name": "Ancient Seal",
+        "internalName": "skywrath_mage_ancient_seal"
+      },
+      {
+        "id": 833,
+        "name": "Shield of the Scion",
+        "internalName": "skywrath_mage_shield_of_the_scion"
+      },
+      {
+        "id": 5584,
+        "name": "Mystic Flare",
+        "internalName": "skywrath_mage_mystic_flare"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 102,
+    "name": "Abaddon",
+    "internalName": "npc_dota_hero_abaddon",
+    "attribute": "universal",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "support",
+      "durable"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5585,
+        "name": "Mist Coil",
+        "internalName": "abaddon_death_coil"
+      },
+      {
+        "id": 5586,
+        "name": "Aphotic Shield",
+        "internalName": "abaddon_aphotic_shield"
+      },
+      {
+        "id": 5587,
+        "name": "Curse of Avernus",
+        "internalName": "abaddon_frostmourne"
+      },
+      {
+        "id": 1481,
+        "name": "Withering Mist",
+        "internalName": "abaddon_withering_mist"
+      },
+      {
+        "id": 5588,
+        "name": "Borrowed Time",
+        "internalName": "abaddon_borrowed_time"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 103,
+    "name": "Elder Titan",
+    "internalName": "npc_dota_hero_elder_titan",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5589,
+        "name": "Echo Stomp",
+        "internalName": "elder_titan_echo_stomp"
+      },
+      {
+        "id": 1392,
+        "name": "Astral Spirit",
+        "internalName": "elder_titan_ancestral_spirit"
+      },
+      {
+        "id": 5593,
+        "name": "Natural Order",
+        "internalName": "elder_titan_natural_order"
+      },
+      {
+        "id": 1393,
+        "name": "Momentum",
+        "internalName": "elder_titan_momentum"
+      },
+      {
+        "id": 5594,
+        "name": "Earth Splitter",
+        "internalName": "elder_titan_earth_splitter"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 104,
+    "name": "Legion Commander",
+    "internalName": "npc_dota_hero_legion_commander",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5595,
+        "name": "Overwhelming Odds",
+        "internalName": "legion_commander_overwhelming_odds"
+      },
+      {
+        "id": 5596,
+        "name": "Press The Attack",
+        "internalName": "legion_commander_press_the_attack"
+      },
+      {
+        "id": 5597,
+        "name": "Moment of Courage",
+        "internalName": "legion_commander_moment_of_courage"
+      },
+      {
+        "id": 1483,
+        "name": "Outfight Them!",
+        "internalName": "legion_commander_outfight_them"
+      },
+      {
+        "id": 5598,
+        "name": "Duel",
+        "internalName": "legion_commander_duel"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 105,
+    "name": "Techies",
+    "internalName": "npc_dota_hero_techies",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 879,
+        "name": "Sticky Bomb",
+        "internalName": "techies_sticky_bomb"
+      },
+      {
+        "id": 886,
+        "name": "Reactive Tazer",
+        "internalName": "techies_reactive_tazer"
+      },
+      {
+        "id": 5601,
+        "name": "Blast Off!",
+        "internalName": "techies_suicide"
+      },
+      {
+        "id": 1778,
+        "name": "M.A.D.",
+        "internalName": "techies_mutually_assured_destruction"
+      },
+      {
+        "id": 5644,
+        "name": "Minefield Sign",
+        "internalName": "techies_minefield_sign"
+      },
+      {
+        "id": 5599,
+        "name": "Proximity Mines",
+        "internalName": "techies_land_mines"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 106,
+    "name": "Ember Spirit",
+    "internalName": "npc_dota_hero_ember_spirit",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5603,
+        "name": "Searing Chains",
+        "internalName": "ember_spirit_searing_chains"
+      },
+      {
+        "id": 5604,
+        "name": "Sleight of Fist",
+        "internalName": "ember_spirit_sleight_of_fist"
+      },
+      {
+        "id": 5605,
+        "name": "Flame Guard",
+        "internalName": "ember_spirit_flame_guard"
+      },
+      {
+        "id": 5607,
+        "name": "Activate Fire Remnant",
+        "internalName": "ember_spirit_activate_fire_remnant"
+      },
+      {
+        "id": 1484,
+        "name": "Immolation",
+        "internalName": "ember_spirit_immolation"
+      },
+      {
+        "id": 5606,
+        "name": "Fire Remnant",
+        "internalName": "ember_spirit_fire_remnant"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 107,
+    "name": "Earth Spirit",
+    "internalName": "npc_dota_hero_earth_spirit",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "nuker",
+      "disabler",
+      "durable",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5608,
+        "name": "Boulder Smash",
+        "internalName": "earth_spirit_boulder_smash"
+      },
+      {
+        "id": 5609,
+        "name": "Rolling Boulder",
+        "internalName": "earth_spirit_rolling_boulder"
+      },
+      {
+        "id": 5610,
+        "name": "Geomagnetic Grip",
+        "internalName": "earth_spirit_geomagnetic_grip"
+      },
+      {
+        "id": 1395,
+        "name": "Stone Remnant",
+        "internalName": "earth_spirit_stone_caller"
+      },
+      {
+        "id": 5648,
+        "name": "Enchant Remnant",
+        "internalName": "earth_spirit_petrify"
+      },
+      {
+        "id": 5612,
+        "name": "Magnetize",
+        "internalName": "earth_spirit_magnetize"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 108,
+    "name": "Underlord",
+    "internalName": "npc_dota_hero_abyssal_underlord",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "durable",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5613,
+        "name": "Firestorm",
+        "internalName": "abyssal_underlord_firestorm"
+      },
+      {
+        "id": 5614,
+        "name": "Pit of Malice",
+        "internalName": "abyssal_underlord_pit_of_malice"
+      },
+      {
+        "id": 5615,
+        "name": "Atrophy Aura",
+        "internalName": "abyssal_underlord_atrophy_aura"
+      },
+      {
+        "id": 1486,
+        "name": "Invading Force",
+        "internalName": "abyssal_underlord_raid_boss"
+      },
+      {
+        "id": 865,
+        "name": "Fiend's Gate",
+        "internalName": "abyssal_underlord_dark_portal"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 109,
+    "name": "Terrorblade",
+    "internalName": "npc_dota_hero_terrorblade",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "pusher"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5619,
+        "name": "Reflection",
+        "internalName": "terrorblade_reflection"
+      },
+      {
+        "id": 5620,
+        "name": "Conjure Image",
+        "internalName": "terrorblade_conjure_image"
+      },
+      {
+        "id": 5621,
+        "name": "Metamorphosis",
+        "internalName": "terrorblade_metamorphosis"
+      },
+      {
+        "id": 699,
+        "name": "Demon Zeal",
+        "internalName": "terrorblade_demon_zeal"
+      },
+      {
+        "id": 425,
+        "name": "Terror Wave",
+        "internalName": "terrorblade_terror_wave"
+      },
+      {
+        "id": 5622,
+        "name": "Sunder",
+        "internalName": "terrorblade_sunder"
+      },
+      {
+        "id": 1396,
+        "name": "Dark Unity",
+        "internalName": "terrorblade_dark_unity"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 110,
+    "name": "Phoenix",
+    "internalName": "npc_dota_hero_phoenix",
+    "attribute": "strength",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5623,
+        "name": "Icarus Dive",
+        "internalName": "phoenix_icarus_dive"
+      },
+      {
+        "id": 5625,
+        "name": "Fire Spirits",
+        "internalName": "phoenix_fire_spirits"
+      },
+      {
+        "id": 5626,
+        "name": "Sun Ray",
+        "internalName": "phoenix_sun_ray"
+      },
+      {
+        "id": 1397,
+        "name": "Dying Light",
+        "internalName": "phoenix_dying_light"
+      },
+      {
+        "id": 5630,
+        "name": "Supernova",
+        "internalName": "phoenix_supernova"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 111,
+    "name": "Oracle",
+    "internalName": "npc_dota_hero_oracle",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5637,
+        "name": "Fortune's End",
+        "internalName": "oracle_fortunes_end"
+      },
+      {
+        "id": 5638,
+        "name": "Fate's Edict",
+        "internalName": "oracle_fates_edict"
+      },
+      {
+        "id": 5639,
+        "name": "Purifying Flames",
+        "internalName": "oracle_purifying_flames"
+      },
+      {
+        "id": 932,
+        "name": "Rain of Destiny",
+        "internalName": "oracle_rain_of_destiny"
+      },
+      {
+        "id": 5640,
+        "name": "False Promise",
+        "internalName": "oracle_false_promise"
+      },
+      {
+        "id": 1401,
+        "name": "Prognosticate",
+        "internalName": "oracle_prognosticate"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 112,
+    "name": "Winter Wyvern",
+    "internalName": "npc_dota_hero_winter_wyvern",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5651,
+        "name": "Arctic Burn",
+        "internalName": "winter_wyvern_arctic_burn"
+      },
+      {
+        "id": 5652,
+        "name": "Splinter Blast",
+        "internalName": "winter_wyvern_splinter_blast"
+      },
+      {
+        "id": 5653,
+        "name": "Cold Embrace",
+        "internalName": "winter_wyvern_cold_embrace"
+      },
+      {
+        "id": 1779,
+        "name": "Eldwurm's Edda",
+        "internalName": "winter_wyvern_eldwurms_edda"
+      },
+      {
+        "id": 5654,
+        "name": "Winter's Curse",
+        "internalName": "winter_wyvern_winters_curse"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 113,
+    "name": "Arc Warden",
+    "internalName": "npc_dota_hero_arc_warden",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "escape"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5677,
+        "name": "Flux",
+        "internalName": "arc_warden_flux"
+      },
+      {
+        "id": 5678,
+        "name": "Magnetic Field",
+        "internalName": "arc_warden_magnetic_field"
+      },
+      {
+        "id": 5679,
+        "name": "Spark Wraith",
+        "internalName": "arc_warden_spark_wraith"
+      },
+      {
+        "id": 1407,
+        "name": "Runic Infusion",
+        "internalName": "arc_warden_runic_infusion"
+      },
+      {
+        "id": 5683,
+        "name": "Tempest Double",
+        "internalName": "arc_warden_tempest_double"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 114,
+    "name": "Monkey King",
+    "internalName": "npc_dota_hero_monkey_king",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5716,
+        "name": "Boundless Strike",
+        "internalName": "monkey_king_boundless_strike"
+      },
+      {
+        "id": 5721,
+        "name": "Tree Dance",
+        "internalName": "monkey_king_tree_dance"
+      },
+      {
+        "id": 5723,
+        "name": "Jingu Mastery",
+        "internalName": "monkey_king_jingu_mastery"
+      },
+      {
+        "id": 5719,
+        "name": "Mischief",
+        "internalName": "monkey_king_mischief"
+      },
+      {
+        "id": 5725,
+        "name": "Wukong's Command",
+        "internalName": "monkey_king_wukongs_command"
+      },
+      {
+        "id": 1627,
+        "name": "Changing of the Guard",
+        "internalName": "monkey_king_transfiguration"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 119,
+    "name": "Dark Willow",
+    "internalName": "npc_dota_hero_dark_willow",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 6339,
+        "name": "Bramble Maze",
+        "internalName": "dark_willow_bramble_maze"
+      },
+      {
+        "id": 6341,
+        "name": "Shadow Realm",
+        "internalName": "dark_willow_shadow_realm"
+      },
+      {
+        "id": 6342,
+        "name": "Cursed Crown",
+        "internalName": "dark_willow_cursed_crown"
+      },
+      {
+        "id": 6340,
+        "name": "Bedlam",
+        "internalName": "dark_willow_bedlam"
+      },
+      {
+        "id": 1413,
+        "name": "Pixie Dust",
+        "internalName": "dark_willow_pixie_dust"
+      },
+      {
+        "id": 8340,
+        "name": "Terrorize",
+        "internalName": "dark_willow_terrorize"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 120,
+    "name": "Pangolier",
+    "internalName": "npc_dota_hero_pangolier",
+    "attribute": "universal",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "durable",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 6344,
+        "name": "Swashbuckle",
+        "internalName": "pangolier_swashbuckle"
+      },
+      {
+        "id": 6461,
+        "name": "Shield Crash",
+        "internalName": "pangolier_shield_crash"
+      },
+      {
+        "id": 7307,
+        "name": "Lucky Shot",
+        "internalName": "pangolier_lucky_shot"
+      },
+      {
+        "id": 8027,
+        "name": "Roll Up",
+        "internalName": "pangolier_rollup"
+      },
+      {
+        "id": 6343,
+        "name": "Rolling Thunder",
+        "internalName": "pangolier_gyroshell"
+      },
+      {
+        "id": 1412,
+        "name": "Fortune Favors the Bold",
+        "internalName": "pangolier_fortune_favors_the_bold"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 121,
+    "name": "Grimstroke",
+    "internalName": "npc_dota_hero_grimstroke",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 8000,
+        "name": "Stroke of Fate",
+        "internalName": "grimstroke_dark_artistry"
+      },
+      {
+        "id": 8006,
+        "name": "Phantom's Embrace",
+        "internalName": "grimstroke_ink_creature"
+      },
+      {
+        "id": 8007,
+        "name": "Ink Swell",
+        "internalName": "grimstroke_spirit_walk"
+      },
+      {
+        "id": 7852,
+        "name": "Dark Portrait",
+        "internalName": "grimstroke_dark_portrait"
+      },
+      {
+        "id": 6491,
+        "name": "Soulbind",
+        "internalName": "grimstroke_soul_chain"
+      },
+      {
+        "id": 1414,
+        "name": "Ink Trail",
+        "internalName": "grimstroke_ink_trail"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 123,
+    "name": "Hoodwink",
+    "internalName": "npc_dota_hero_hoodwink",
+    "attribute": "agility",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 8429,
+        "name": "Acorn Shot",
+        "internalName": "hoodwink_acorn_shot"
+      },
+      {
+        "id": 8158,
+        "name": "Bushwhack",
+        "internalName": "hoodwink_bushwhack"
+      },
+      {
+        "id": 9501,
+        "name": "Scurry",
+        "internalName": "hoodwink_scurry"
+      },
+      {
+        "id": 8107,
+        "name": "Decoy",
+        "internalName": "hoodwink_decoy"
+      },
+      {
+        "id": 1422,
+        "name": "Hunter's Boomerang",
+        "internalName": "hoodwink_hunters_boomerang"
+      },
+      {
+        "id": 8106,
+        "name": "Sharpshooter",
+        "internalName": "hoodwink_sharpshooter"
+      },
+      {
+        "id": 1423,
+        "name": "Mistwoods Wayfarer",
+        "internalName": "hoodwink_mistwoods_wayfarer"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 126,
+    "name": "Void Spirit",
+    "internalName": "npc_dota_hero_void_spirit",
+    "attribute": "universal",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 7701,
+        "name": "Aether Remnant",
+        "internalName": "void_spirit_aether_remnant"
+      },
+      {
+        "id": 6470,
+        "name": "Dissimilate",
+        "internalName": "void_spirit_dissimilate"
+      },
+      {
+        "id": 7710,
+        "name": "Resonant Pulse",
+        "internalName": "void_spirit_resonant_pulse"
+      },
+      {
+        "id": 1420,
+        "name": "Intrinsic Edge",
+        "internalName": "void_spirit_intrinsic_edge"
+      },
+      {
+        "id": 7705,
+        "name": "Astral Step",
+        "internalName": "void_spirit_astral_step"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 128,
+    "name": "Snapfire",
+    "internalName": "npc_dota_hero_snapfire",
+    "attribute": "universal",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 6480,
+        "name": "Scatterblast",
+        "internalName": "snapfire_scatterblast"
+      },
+      {
+        "id": 6483,
+        "name": "Firesnap Cookie",
+        "internalName": "snapfire_firesnap_cookie"
+      },
+      {
+        "id": 6488,
+        "name": "Lil' Shredder",
+        "internalName": "snapfire_lil_shredder"
+      },
+      {
+        "id": 6484,
+        "name": "Gobble Up",
+        "internalName": "snapfire_gobble_up"
+      },
+      {
+        "id": 6486,
+        "name": "Spit Out",
+        "internalName": "snapfire_spit_creep"
+      },
+      {
+        "id": 6482,
+        "name": "Mortimer Kisses",
+        "internalName": "snapfire_mortimer_kisses"
+      },
+      {
+        "id": 1782,
+        "name": "Boomstick",
+        "internalName": "snapfire_boomstick"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 129,
+    "name": "Mars",
+    "internalName": "npc_dota_hero_mars",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 6583,
+        "name": "Spear of Mars",
+        "internalName": "mars_spear"
+      },
+      {
+        "id": 6495,
+        "name": "God's Rebuke",
+        "internalName": "mars_gods_rebuke"
+      },
+      {
+        "id": 6582,
+        "name": "Bulwark",
+        "internalName": "mars_bulwark"
+      },
+      {
+        "id": 1415,
+        "name": "Dauntless",
+        "internalName": "mars_dauntless"
+      },
+      {
+        "id": 1416,
+        "name": "Arena Of Blood",
+        "internalName": "mars_arena_of_blood"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 131,
+    "name": "Ringmaster",
+    "internalName": "npc_dota_hero_ringmaster",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "support",
+      "nuker",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 352,
+        "name": "Tame the Beasts",
+        "internalName": "ringmaster_tame_the_beasts"
+      },
+      {
+        "id": 383,
+        "name": "Escape Act",
+        "internalName": "ringmaster_the_box"
+      },
+      {
+        "id": 386,
+        "name": "Impalement Arts",
+        "internalName": "ringmaster_impalement"
+      },
+      {
+        "id": 195,
+        "name": "Spotlight",
+        "internalName": "ringmaster_spotlight"
+      },
+      {
+        "id": 385,
+        "name": "Wheel of Wonder",
+        "internalName": "ringmaster_wheel"
+      },
+      {
+        "id": 388,
+        "name": "Dark Carnival Barker",
+        "internalName": "ringmaster_dark_carnival_souvenirs"
+      },
+      {
+        "id": 389,
+        "name": "Funhouse Mirror",
+        "internalName": "ringmaster_funhouse_mirror"
+      },
+      {
+        "id": 392,
+        "name": "Strongman Tonic",
+        "internalName": "ringmaster_strongman_tonic"
+      },
+      {
+        "id": 390,
+        "name": "Whoopee Cushion",
+        "internalName": "ringmaster_whoopee_cushion"
+      },
+      {
+        "id": 196,
+        "name": "Unicycle",
+        "internalName": "ringmaster_summon_unicycle"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 135,
+    "name": "Dawnbreaker",
+    "internalName": "npc_dota_hero_dawnbreaker",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "durable"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 7902,
+        "name": "Starbreaker",
+        "internalName": "dawnbreaker_fire_wreath"
+      },
+      {
+        "id": 7914,
+        "name": "Celestial Hammer",
+        "internalName": "dawnbreaker_celestial_hammer"
+      },
+      {
+        "id": 7918,
+        "name": "Luminosity",
+        "internalName": "dawnbreaker_luminosity"
+      },
+      {
+        "id": 1424,
+        "name": "Break of Dawn",
+        "internalName": "dawnbreaker_break_of_dawn"
+      },
+      {
+        "id": 7906,
+        "name": "Solar Guardian",
+        "internalName": "dawnbreaker_solar_guardian"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 136,
+    "name": "Marci",
+    "internalName": "npc_dota_hero_marci",
+    "attribute": "universal",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "support",
+      "disabler",
+      "escape",
+      "initiator"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 8192,
+        "name": "Dispose",
+        "internalName": "marci_grapple"
+      },
+      {
+        "id": 8235,
+        "name": "Rebound",
+        "internalName": "marci_companion_run"
+      },
+      {
+        "id": 1427,
+        "name": "Bodyguard",
+        "internalName": "marci_bodyguard"
+      },
+      {
+        "id": 1428,
+        "name": "Special Delivery",
+        "internalName": "marci_special_delivery"
+      },
+      {
+        "id": 8198,
+        "name": "Unleash",
+        "internalName": "marci_unleash"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 137,
+    "name": "Primal Beast",
+    "internalName": "npc_dota_hero_primal_beast",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "disabler",
+      "durable",
+      "initiator"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 992,
+        "name": "Onslaught",
+        "internalName": "primal_beast_onslaught"
+      },
+      {
+        "id": 994,
+        "name": "Trample",
+        "internalName": "primal_beast_trample"
+      },
+      {
+        "id": 995,
+        "name": "Uproar",
+        "internalName": "primal_beast_uproar"
+      },
+      {
+        "id": 7739,
+        "name": "Rock Throw",
+        "internalName": "primal_beast_rock_throw"
+      },
+      {
+        "id": 996,
+        "name": "Pulverize",
+        "internalName": "primal_beast_pulverize"
+      },
+      {
+        "id": 1432,
+        "name": "Colossal",
+        "internalName": "primal_beast_colossal"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 138,
+    "name": "Muerta",
+    "internalName": "npc_dota_hero_muerta",
+    "attribute": "intelligence",
+    "attackType": "ranged",
+    "roles": [
+      "carry",
+      "nuker",
+      "disabler"
+    ],
+    "complexity": 1,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 5751,
+        "name": "Dead Shot",
+        "internalName": "muerta_dead_shot"
+      },
+      {
+        "id": 5752,
+        "name": "The Calling",
+        "internalName": "muerta_the_calling"
+      },
+      {
+        "id": 5753,
+        "name": "Gunslinger",
+        "internalName": "muerta_gunslinger"
+      },
+      {
+        "id": 1785,
+        "name": "Spectral Slug",
+        "internalName": "muerta_spectral_slug"
+      },
+      {
+        "id": 5754,
+        "name": "Pierce the Veil",
+        "internalName": "muerta_pierce_the_veil"
+      },
+      {
+        "id": 1436,
+        "name": "Supernatural",
+        "internalName": "muerta_supernatural"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 145,
+    "name": "Kez",
+    "internalName": "npc_dota_hero_kez",
+    "attribute": "agility",
+    "attackType": "melee",
+    "roles": [
+      "carry",
+      "disabler",
+      "escape"
+    ],
+    "complexity": 3,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 1498,
+        "name": "Echo Slash",
+        "internalName": "kez_echo_slash"
+      },
+      {
+        "id": 1499,
+        "name": "Grappling Claw",
+        "internalName": "kez_grappling_claw"
+      },
+      {
+        "id": 1500,
+        "name": "Kazurai Katana",
+        "internalName": "kez_kazurai_katana"
+      },
+      {
+        "id": 1497,
+        "name": "Switch Discipline",
+        "internalName": "kez_switch_weapons"
+      },
+      {
+        "id": 1501,
+        "name": "Raptor Dance",
+        "internalName": "kez_raptor_dance"
+      },
+      {
+        "id": 1502,
+        "name": "Falcon Rush",
+        "internalName": "kez_falcon_rush"
+      },
+      {
+        "id": 1503,
+        "name": "Talon Toss",
+        "internalName": "kez_talon_toss"
+      },
+      {
+        "id": 1504,
+        "name": "Shodo Sai",
+        "internalName": "kez_shodo_sai"
+      },
+      {
+        "id": 1506,
+        "name": "Raven's Veil",
+        "internalName": "kez_ravens_veil"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  },
+  {
+    "id": 155,
+    "name": "Largo",
+    "internalName": "npc_dota_hero_largo",
+    "attribute": "strength",
+    "attackType": "melee",
+    "roles": [
+      "support",
+      "disabler",
+      "durable"
+    ],
+    "complexity": 2,
+    "powerSpike": null,
+    "signature": null,
+    "abilities": [
+      {
+        "id": 1659,
+        "name": "Catchy Lick",
+        "internalName": "largo_catchy_lick"
+      },
+      {
+        "id": 1660,
+        "name": "Frogstomp",
+        "internalName": "largo_frogstomp"
+      },
+      {
+        "id": 1661,
+        "name": "Croak of Genius",
+        "internalName": "largo_croak_of_genius"
+      },
+      {
+        "id": 1666,
+        "name": "Encore",
+        "internalName": "largo_encore"
+      },
+      {
+        "id": 1662,
+        "name": "Amphibian Rhapsody",
+        "internalName": "largo_amphibian_rhapsody"
+      },
+      {
+        "id": 1663,
+        "name": "Bullbelly Blitz",
+        "internalName": "largo_song_fight_song"
+      },
+      {
+        "id": 1664,
+        "name": "Hotfeet Hustle",
+        "internalName": "largo_song_double_time"
+      },
+      {
+        "id": 1665,
+        "name": "Island Elixir",
+        "internalName": "largo_song_good_vibrations"
+      }
+    ],
+    "hintAbilityId": null,
+    "buildHint": null
+  }
+]

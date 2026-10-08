@@ -1,0 +1,16 @@
+[package]
+name = "heroes_data"
+version = "0.1.0"
+edition = "2021"
+description = "Generates heroes.json for DotaWho from Valve's official Dota 2 datafeed."
+
+[dependencies]
+anyhow = "1"
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "sync", "time"] }
+
+[profile.release]
+strip = true
+lto = "thin"
